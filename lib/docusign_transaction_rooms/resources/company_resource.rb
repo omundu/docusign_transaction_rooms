@@ -7,7 +7,7 @@ module DocusignTransactionRooms
       action :integrations do
         verb :get
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/company/integrations"
-        handler(200) { |response| JSON.parse(response.body) }
+        handler(200) { |response| IntegrationMapping.extract_collection(response.body, :read) }
       end
 
       # GET /v1/company/offices
@@ -21,7 +21,7 @@ module DocusignTransactionRooms
       action :room_fields do
         verb :get
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/company/room_fields"
-        handler(200) { |response| JSON.parse(response.body) }
+        handler(200) { |response| RoomFieldMapping.extract_collection(response.body, :read) }
       end
     end
 
