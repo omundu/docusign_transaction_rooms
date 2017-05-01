@@ -26,6 +26,7 @@ module DocusignTransactionRooms
     def self.resources
       {
         company: CompanyResource,
+        members: MemberResource,
       }
     end
 
