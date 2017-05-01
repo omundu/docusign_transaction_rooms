@@ -16,12 +16,13 @@ module DocusignTransactionRooms
   end
 end
 
-
-
-# - id: 00000
-#   profile:
-#     email: person@bostonlogic.com
-#     firstName: BL Company
-#     lastName: Admin
-#   isLockedOut: false
-#   status: active
+# {
+#       "id": 0,
+#       "profile": {
+#         "email": "string",
+#         "firstName": "string",
+#         "lastName": "string"
+#       },
+#       "isLockedOut": true,
+#       "status": "string"
+#     }

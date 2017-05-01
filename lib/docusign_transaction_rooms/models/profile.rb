@@ -5,3 +5,9 @@ module DocusignTransactionRooms
     attribute :lastName
   end
 end
+
+#   "profile": {
+#     "email": "string",
+#     "firstName": "string",
+#     "lastName": "string"
+#   }

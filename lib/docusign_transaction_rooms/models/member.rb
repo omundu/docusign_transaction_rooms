@@ -4,9 +4,24 @@ module DocusignTransactionRooms
     attribute :profile, Profile
     attribute :isLockedOut
     attribute :status
+    attribute :lockedOutReason
+    attribute :agent, Agent
+    attribute :manager, Manager
+    attribute :permissionProfileId
   end
 end
 
+# Collection
+# {
+#   "id": 0,
+#   "profile": {
+#     "email": "string",
+#     "firstName": "string",
+#     "lastName": "string"
+#   },
+#   "isLockedOut": true,
+#   "status": "string"
+# }
 
 # {
 #   "id": 0,

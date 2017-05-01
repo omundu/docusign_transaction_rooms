@@ -17,6 +17,11 @@ module DocusignTransactionRooms
 
   autoload :Member, 'docusign_transaction_rooms/models/member'
   autoload :Profile, 'docusign_transaction_rooms/models/profile'
+  autoload :Agent, 'docusign_transaction_rooms/models/agent'
+  autoload :Profile, 'docusign_transaction_rooms/models/profile'
+  autoload :Manager, 'docusign_transaction_rooms/models/manager'
+  autoload :Access, 'docusign_transaction_rooms/models/access'
+  autoload :Permissions, 'docusign_transaction_rooms/models/permissions'
 
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
