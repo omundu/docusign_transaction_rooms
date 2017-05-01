@@ -27,6 +27,7 @@ module DocusignTransactionRooms
       {
         company: CompanyResource,
         members: MemberResource,
+        offices: OfficeResource,
       }
     end
 
