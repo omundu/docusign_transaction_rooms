@@ -26,6 +26,7 @@ module DocusignTransactionRooms
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
+  autoload :OfficeResource, 'docusign_transaction_rooms/resources/office_resource'
   # JSON Maps
   autoload :OfficeMapping, 'docusign_transaction_rooms/mappings/office_mapping'
   autoload :IntegrationMapping, 'docusign_transaction_rooms/mappings/integration_mapping'
