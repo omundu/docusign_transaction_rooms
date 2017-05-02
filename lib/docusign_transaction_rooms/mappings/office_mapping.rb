@@ -13,6 +13,10 @@ module DocusignTransactionRooms
         property :phone
         property :regionId
       end
+
+      scoped :create, :update do
+        property :id
+      end
     end
   end
 end

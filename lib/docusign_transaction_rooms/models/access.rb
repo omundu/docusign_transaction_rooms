@@ -1,10 +1,10 @@
 module DocusignTransactionRooms
   class Access < BaseModel
-    attribute :managerTitleId, Access
-    attribute :accessLevel, Permissions
-    attribute :defaultOffice, Office
-    attribute :officeIds
-    attribute :regionIds
+    attribute :managerTitleId
+    attribute :accessLevel
+    attribute :defaultOffice, DefaultOffice
+    attribute :officeIds, Array
+    attribute :regionIds, Array
   end
 end
 

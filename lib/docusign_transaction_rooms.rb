@@ -22,16 +22,26 @@ module DocusignTransactionRooms
   autoload :Manager, 'docusign_transaction_rooms/models/manager'
   autoload :Access, 'docusign_transaction_rooms/models/access'
   autoload :Permissions, 'docusign_transaction_rooms/models/permissions'
+  autoload :DefaultOffice, 'docusign_transaction_rooms/models/default_office'
 
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
   autoload :OfficeResource, 'docusign_transaction_rooms/resources/office_resource'
+
+  autoload :MetaResource, 'docusign_transaction_rooms/resources/meta_resource'
+  autoload :RoomResource, 'docusign_transaction_rooms/resources/room_resource'
+  autoload :UserResource, 'docusign_transaction_rooms/resources/user_resource'
+
   # JSON Maps
   autoload :OfficeMapping, 'docusign_transaction_rooms/mappings/office_mapping'
   autoload :IntegrationMapping, 'docusign_transaction_rooms/mappings/integration_mapping'
   autoload :RoomFieldMapping, 'docusign_transaction_rooms/mappings/room_field_mapping'
   autoload :MemberMapping, 'docusign_transaction_rooms/mappings/member_mapping'
+  autoload :AgentMapping, 'docusign_transaction_rooms/mappings/agent_mapping'
+  autoload :ProfileMapping, 'docusign_transaction_rooms/mappings/profile_mapping'
+  autoload :AccessMapping, 'docusign_transaction_rooms/mappings/access_mapping'
+  autoload :PermissionsMapping, 'docusign_transaction_rooms/mappings/permissions_mapping'
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'
