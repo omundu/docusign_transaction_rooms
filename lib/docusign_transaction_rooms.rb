@@ -26,13 +26,26 @@ module DocusignTransactionRooms
 
   autoload :ContactInfo, 'docusign_transaction_rooms/models/contact_info'
 
+  autoload :Room, 'docusign_transaction_rooms/models/room'
+  autoload :Owner, 'docusign_transaction_rooms/models/owner'
+  autoload :Details, 'docusign_transaction_rooms/models/details'
+  autoload :TransactionParty, 'docusign_transaction_rooms/models/transaction_party'
+  autoload :AuctionDetails, 'docusign_transaction_rooms/models/auction_details'
+  autoload :CreationDetails, 'docusign_transaction_rooms/models/creation_details'
+  autoload :LoneWolfDetails, 'docusign_transaction_rooms/models/lone_wolf_details'
+  autoload :AgentCommission, 'docusign_transaction_rooms/models/agent_commission'
+  autoload :ExternalAgentCommission, 'docusign_transaction_rooms/models/external_agent_commission'
+  autoload :ClientContact, 'docusign_transaction_rooms/models/client_contact'
+  autoload :BusinessContact, 'docusign_transaction_rooms/models/business_contact'
+  autoload :ProfitPowerDetails, 'docusign_transaction_rooms/models/profit_power_details'
+
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
   autoload :OfficeResource, 'docusign_transaction_rooms/resources/office_resource'
+  autoload :RoomResource, 'docusign_transaction_rooms/resources/room_resource'
 
   autoload :MetaResource, 'docusign_transaction_rooms/resources/meta_resource'
-  autoload :RoomResource, 'docusign_transaction_rooms/resources/room_resource'
   autoload :UserResource, 'docusign_transaction_rooms/resources/user_resource'
 
   # JSON Maps
@@ -46,6 +59,19 @@ module DocusignTransactionRooms
   autoload :PermissionsMapping, 'docusign_transaction_rooms/mappings/permissions_mapping'
 
   autoload :ContactInfoMapping, 'docusign_transaction_rooms/mappings/contact_info_mapping'
+
+  autoload :RoomMapping, 'docusign_transaction_rooms/mappings/room_mapping'
+  autoload :AddressMapping, 'docusign_transaction_rooms/mappings/address_mapping'
+  autoload :DetailsMapping, 'docusign_transaction_rooms/mappings/details_mapping'
+  autoload :TransactionPartyMapping, 'docusign_transaction_rooms/mappings/transaction_party_mapping'
+  autoload :LoneWolfDetailsMapping, 'docusign_transaction_rooms/mappings/lone_wolf_details_mapping'
+  autoload :AgentCommissionMapping, 'docusign_transaction_rooms/mappings/agent_commission_mapping'
+  autoload :ExternalAgentCommissionMapping, 'docusign_transaction_rooms/mappings/external_agent_commission_mapping'
+  autoload :ClientContactMapping, 'docusign_transaction_rooms/mappings/client_contact_mapping'
+  autoload :BusinessContactMapping, 'docusign_transaction_rooms/mappings/business_contact_mapping'
+  autoload :AuctionDetailsMapping, 'docusign_transaction_rooms/mappings/auction_details_mapping'
+  autoload :ProfitPowerDetailsMapping, 'docusign_transaction_rooms/mappings/profit_power_details_mapping'
+  
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'

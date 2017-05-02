@@ -10,3 +10,16 @@ module DocusignTransactionRooms
     attribute :timeZoneId
   end
 end
+
+
+
+#     "address": {
+#       "address1": "string",
+#       "address2": "string",
+#       "city": "string",
+#       "county": "string",
+#       "stateId": "string",
+#       "postalCode": "string",
+#       "countryId": "string",
+#       "timeZoneId": "string"
+#     }
