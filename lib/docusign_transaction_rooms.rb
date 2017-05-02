@@ -24,6 +24,8 @@ module DocusignTransactionRooms
   autoload :Permissions, 'docusign_transaction_rooms/models/permissions'
   autoload :DefaultOffice, 'docusign_transaction_rooms/models/default_office'
 
+  autoload :ContactInfo, 'docusign_transaction_rooms/models/contact_info'
+
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
@@ -42,6 +44,8 @@ module DocusignTransactionRooms
   autoload :ProfileMapping, 'docusign_transaction_rooms/mappings/profile_mapping'
   autoload :AccessMapping, 'docusign_transaction_rooms/mappings/access_mapping'
   autoload :PermissionsMapping, 'docusign_transaction_rooms/mappings/permissions_mapping'
+
+  autoload :ContactInfoMapping, 'docusign_transaction_rooms/mappings/contact_info_mapping'
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'
