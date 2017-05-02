@@ -28,6 +28,7 @@ module DocusignTransactionRooms
         company: CompanyResource,
         members: MemberResource,
         offices: OfficeResource,
+        meta: MetaResource,
         rooms: RoomResource,
         users: UserResource
       }

@@ -39,13 +39,15 @@ module DocusignTransactionRooms
   autoload :BusinessContact, 'docusign_transaction_rooms/models/business_contact'
   autoload :ProfitPowerDetails, 'docusign_transaction_rooms/models/profit_power_details'
 
+  autoload :Meta, 'docusign_transaction_rooms/models/meta'
+
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
   autoload :OfficeResource, 'docusign_transaction_rooms/resources/office_resource'
   autoload :RoomResource, 'docusign_transaction_rooms/resources/room_resource'
-
   autoload :MetaResource, 'docusign_transaction_rooms/resources/meta_resource'
+
   autoload :UserResource, 'docusign_transaction_rooms/resources/user_resource'
 
   # JSON Maps
@@ -71,7 +73,8 @@ module DocusignTransactionRooms
   autoload :BusinessContactMapping, 'docusign_transaction_rooms/mappings/business_contact_mapping'
   autoload :AuctionDetailsMapping, 'docusign_transaction_rooms/mappings/auction_details_mapping'
   autoload :ProfitPowerDetailsMapping, 'docusign_transaction_rooms/mappings/profit_power_details_mapping'
-  
+
+  autoload :MetaMapping, 'docusign_transaction_rooms/mappings/meta_mapping'
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'
