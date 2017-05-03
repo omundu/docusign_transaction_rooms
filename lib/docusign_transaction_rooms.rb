@@ -66,6 +66,7 @@ module DocusignTransactionRooms
   autoload :ProfileMapping, 'docusign_transaction_rooms/mappings/profile_mapping'
   autoload :AccessMapping, 'docusign_transaction_rooms/mappings/access_mapping'
   autoload :PermissionsMapping, 'docusign_transaction_rooms/mappings/permissions_mapping'
+  autoload :ManagerMapping, 'docusign_transaction_rooms/mappings/manager_mapping'
 
   autoload :ContactInfoMapping, 'docusign_transaction_rooms/mappings/contact_info_mapping'
 
