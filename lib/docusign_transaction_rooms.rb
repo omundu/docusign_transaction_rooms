@@ -38,6 +38,13 @@ module DocusignTransactionRooms
   autoload :ClientContact, 'docusign_transaction_rooms/models/client_contact'
   autoload :BusinessContact, 'docusign_transaction_rooms/models/business_contact'
   autoload :ProfitPowerDetails, 'docusign_transaction_rooms/models/profit_power_details'
+  autoload :RoomActivity, 'docusign_transaction_rooms/models/room_activity'
+  autoload :RoomApproval, 'docusign_transaction_rooms/models/room_approval'
+  autoload :RoomDocument, 'docusign_transaction_rooms/models/room_document'
+  autoload :RoomRejection, 'docusign_transaction_rooms/models/room_rejection'
+  autoload :RoomSubmission, 'docusign_transaction_rooms/models/room_submission'
+  autoload :RoomTaskList, 'docusign_transaction_rooms/models/room_task_list'
+  autoload :User, 'docusign_transaction_rooms/models/user'
 
   autoload :Meta, 'docusign_transaction_rooms/models/meta'
 
@@ -73,6 +80,12 @@ module DocusignTransactionRooms
   autoload :BusinessContactMapping, 'docusign_transaction_rooms/mappings/business_contact_mapping'
   autoload :AuctionDetailsMapping, 'docusign_transaction_rooms/mappings/auction_details_mapping'
   autoload :ProfitPowerDetailsMapping, 'docusign_transaction_rooms/mappings/profit_power_details_mapping'
+  autoload :RoomActivityMapping, 'docusign_transaction_rooms/mappings/room_activity_mapping'
+  autoload :RoomApprovalMapping, 'docusign_transaction_rooms/mappings/room_approval_mapping'
+  autoload :RoomDocumentMapping, 'docusign_transaction_rooms/mappings/room_document_mapping'
+  autoload :RoomRejectionMapping, 'docusign_transaction_rooms/mappings/room_rejection_mapping'
+  autoload :RoomSubmissionMapping, 'docusign_transaction_rooms/mappings/room_submission_mapping'
+  autoload :RoomTaskListMapping, 'docusign_transaction_rooms/mappings/room_task_list_mapping'
 
   autoload :MetaMapping, 'docusign_transaction_rooms/mappings/meta_mapping'
 

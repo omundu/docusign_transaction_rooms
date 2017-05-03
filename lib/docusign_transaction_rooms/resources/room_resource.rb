@@ -48,6 +48,104 @@ module DocusignTransactionRooms
         handler(200) { |response| RoomMapping.extract_single(response.body, :read) }
       end
 
+      # GET     /v1/rooms/{id}/activity
+      action :activity do
+        verb :get
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/activity"
+        handler(200) { |response| RoomActivityMapping.extract_collection(response.body, :read) }
+      end
+
+      # PUT     /v1/rooms/{id}/approval
+      action :approval do
+        verb :put
+        body { |object| RoomApprovalMapping.representation_for(:update, object) }
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/approval"
+        handler(200) { |response| response.body }
+      end
+
+      # GET     /v1/rooms/{id}/documents
+      action :documents do
+        verb :get
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/documents"
+        handler(200) { |response| RoomDocumentMapping.extract_collection(response.body, :read) }
+      end
+
+      # POST    /v1/rooms/{id}/documents
+      action :create_document do
+        verb :post
+        # body { |object| RoomDocumentMapping.representation_for(:update, object) }
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/documents"
+        handler(200) { |response| response.body }
+      end
+
+      # PUT     /v1/rooms/{id}/rejection
+      action :rejection do
+        verb :put
+        body { |object| RoomRejectionMapping.representation_for(:update, object) }
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/rejection"
+        handler(200) { |response| response.body }
+      end
+
+      # GET     /v1/rooms/{id}/roomFields
+      action :room_fields do
+        verb :get
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/roomFields"
+        handler(200) { |response| JSON.parse(response.body) }
+      end
+
+      # PUT     /v1/rooms/{id}/submission
+      action :submission do
+        verb :put
+        body { |object| RoomSubmissionMapping.representation_for(:update, object) }
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/submission"
+        handler(200) { |response| response.body }
+      end
+
+      # GET     /v1/rooms/{id}/task_lists
+      action :task_lists do
+        verb :get
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/task_lists"
+        handler(200) { |response| RoomTaskListMapping.extract_collection(response.body, :read) }
+      end
+
+      # POST    /v1/rooms/{id}/task_lists
+      action :create_task_list do
+        verb :post
+        body { |object| RoomTaskListMapping.representation_for(:update, object) }
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/task_lists"
+        handler(200) { |response| RoomTaskListMapping.extract_collection(response.body, :read) }
+      end
+
+      # GET     /v1/rooms/{id}/users
+      action :users do
+        verb :get
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/users"
+        handler(200) { |response| UserMapping.extract_collection(response.body, :read) }
+      end
+
+      # POST    /v1/rooms/{id}/users
+      action :invite_user do
+        verb :post
+        body { |object| UserMapping.representation_for(:update, object) }
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/users"
+        handler(201) { |response| UserMapping.extract_single(response.body, :read) }
+      end
+
+      # DELETE  /v1/rooms/{id}/users/{userId}
+      action :remove_user do
+        verb :delete
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/users/:user_id"
+        handler(204) { |_| true }
+      end
+
+      # POST    /v1/rooms/{id}/users/{userId}
+      action :add_user do
+        verb :post
+        body { |object| UserMapping.representation_for(:add_user, object) }
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/users/:user_id"
+        handler(201) { |response| UserMapping.extract_single(response.body, :read) }
+      end
+    end
 
   end
 end
