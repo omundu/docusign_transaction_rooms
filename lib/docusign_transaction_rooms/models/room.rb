@@ -13,6 +13,11 @@ module DocusignTransactionRooms
     attribute :creationDetails, CreationDetails
     attribute :loneWolfDetails, LoneWolfDetails
     attribute :integrationRoomDetails
+
+    attribute :ownerId
+    attribute :transactionSideId
+    attribute :roleId
+    attribute :profitPowerDetails
   end
 end
 

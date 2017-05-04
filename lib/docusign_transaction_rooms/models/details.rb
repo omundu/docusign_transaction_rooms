@@ -16,7 +16,7 @@ module DocusignTransactionRooms
     attribute :listingExpirationDate
     attribute :originalListingAmount
     attribute :currentListingAmount
-    attribute :relisting
+    attribute :relisting, Boolean, :default => false
     attribute :offerDate
     attribute :contractDate
     attribute :contractAmount
@@ -52,7 +52,7 @@ module DocusignTransactionRooms
     attribute :localEarnestMoneyAmount
     attribute :localOriginalListingAmount
     attribute :comment
-    attribute :isUnderContract
+    attribute :isUnderContract, Boolean, :default => false
     attribute :closedStatusId
     attribute :localCurrencyId
     attribute :seller1, TransactionParty
