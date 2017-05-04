@@ -62,6 +62,11 @@ module DocusignTransactionRooms
 
   autoload :TaskList, 'docusign_transaction_rooms/models/task_list'
 
+  autoload :Task, 'docusign_transaction_rooms/models/task'
+  autoload :TaskDocument, 'docusign_transaction_rooms/models/task_document'
+  autoload :TaskReminder, 'docusign_transaction_rooms/models/task_reminder'
+  autoload :TaskAssignment, 'docusign_transaction_rooms/models/task_assignment'
+
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
@@ -84,6 +89,8 @@ module DocusignTransactionRooms
   autoload :RegionResource, 'docusign_transaction_rooms/resources/region_resource'
 
   autoload :TaskListResource, 'docusign_transaction_rooms/resources/task_list_resource'
+
+  autoload :TaskResource, 'docusign_transaction_rooms/resources/task_resource'
 
   # JSON Maps
   autoload :OfficeMapping, 'docusign_transaction_rooms/mappings/office_mapping'
@@ -129,6 +136,8 @@ module DocusignTransactionRooms
   autoload :RegionMapping, 'docusign_transaction_rooms/mappings/region_mapping'
 
   autoload :TaskListMapping, 'docusign_transaction_rooms/mappings/task_list_mapping'
+
+  autoload :TaskMapping, 'docusign_transaction_rooms/mappings/task_mapping'
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'
