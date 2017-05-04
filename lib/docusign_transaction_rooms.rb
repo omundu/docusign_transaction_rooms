@@ -58,6 +58,8 @@ module DocusignTransactionRooms
 
   autoload :Document, 'docusign_transaction_rooms/models/document'
 
+  autoload :Region, 'docusign_transaction_rooms/models/region'
+
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
@@ -76,6 +78,8 @@ module DocusignTransactionRooms
   autoload :DocumentResource, 'docusign_transaction_rooms/resources/document_resource'
 
   autoload :LoneWolfMetaResource, 'docusign_transaction_rooms/resources/lone_wolf_meta_resource'
+
+  autoload :RegionResource, 'docusign_transaction_rooms/resources/region_resource'
 
   # JSON Maps
   autoload :OfficeMapping, 'docusign_transaction_rooms/mappings/office_mapping'
@@ -117,6 +121,8 @@ module DocusignTransactionRooms
   autoload :InboxMapping, 'docusign_transaction_rooms/mappings/inbox_mapping'
 
   autoload :DocumentMapping, 'docusign_transaction_rooms/mappings/document_mapping'
+
+  autoload :RegionMapping, 'docusign_transaction_rooms/mappings/region_mapping'
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'
