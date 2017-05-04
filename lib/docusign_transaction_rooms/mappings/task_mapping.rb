@@ -4,11 +4,6 @@ module DocusignTransactionRooms
 
     kartograph do
       mapping Task
-      root_key singular: 'comment', scopes: [:approval]
-      root_key singular: 'assignment', scopes: [:assignment]
-      root_key singular: 'placeholder', scopes: [:placeholder]
-      root_key singular: 'placeholderName', scopes: [:placeholder_name]
-      root_key singular: 'documentId', scopes: [:document]
 
       scoped :read do
         property :taskId
