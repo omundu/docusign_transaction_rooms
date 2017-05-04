@@ -56,6 +56,8 @@ module DocusignTransactionRooms
 
   autoload :Inbox, 'docusign_transaction_rooms/models/inbox'
 
+  autoload :Document, 'docusign_transaction_rooms/models/document'
+
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
@@ -70,6 +72,8 @@ module DocusignTransactionRooms
   autoload :TemplateResource, 'docusign_transaction_rooms/resources/template_resource'
 
   autoload :InboxResource, 'docusign_transaction_rooms/resources/inbox_resource'
+
+  autoload :DocumentResource, 'docusign_transaction_rooms/resources/document_resource'
 
   # JSON Maps
   autoload :OfficeMapping, 'docusign_transaction_rooms/mappings/office_mapping'
@@ -109,6 +113,8 @@ module DocusignTransactionRooms
   autoload :TemplateMapping, 'docusign_transaction_rooms/mappings/template_mapping'
 
   autoload :InboxMapping, 'docusign_transaction_rooms/mappings/inbox_mapping'
+
+  autoload :DocumentMapping, 'docusign_transaction_rooms/mappings/document_mapping'
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'

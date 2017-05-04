@@ -26,6 +26,7 @@ module DocusignTransactionRooms
     def self.resources
       {
         company: CompanyResource,
+        documents: DocumentResource,
         inbox: InboxResource,
         members: MemberResource,
         offices: OfficeResource,
