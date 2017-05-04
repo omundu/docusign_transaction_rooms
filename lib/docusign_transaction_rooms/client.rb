@@ -34,6 +34,7 @@ module DocusignTransactionRooms
         regions: RegionResource,
         meta: MetaResource,
         rooms: RoomResource,
+        task_lists: TaskListResource,
         templates: TemplateResource,
         titles: TitleResource,
         users: UserResource
