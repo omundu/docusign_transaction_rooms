@@ -28,6 +28,7 @@ module DocusignTransactionRooms
         company: CompanyResource,
         documents: DocumentResource,
         inbox: InboxResource,
+        lone_wolf_meta: LoneWolfMeta,
         members: MemberResource,
         offices: OfficeResource,
         meta: MetaResource,

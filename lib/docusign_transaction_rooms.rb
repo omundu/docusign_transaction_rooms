@@ -75,6 +75,8 @@ module DocusignTransactionRooms
 
   autoload :DocumentResource, 'docusign_transaction_rooms/resources/document_resource'
 
+  autoload :LoneWolfMetaResource, 'docusign_transaction_rooms/resources/lone_wolf_meta_resource'
+
   # JSON Maps
   autoload :OfficeMapping, 'docusign_transaction_rooms/mappings/office_mapping'
   autoload :IntegrationMapping, 'docusign_transaction_rooms/mappings/integration_mapping'
