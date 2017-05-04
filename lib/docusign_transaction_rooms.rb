@@ -8,7 +8,7 @@ module DocusignTransactionRooms
 
   # Models
   autoload :BaseModel, 'docusign_transaction_rooms/models/base_model'
-  
+
   autoload :Office, 'docusign_transaction_rooms/models/office'
   autoload :Address, 'docusign_transaction_rooms/models/address'
   autoload :Integration, 'docusign_transaction_rooms/models/integration'
@@ -48,6 +48,18 @@ module DocusignTransactionRooms
 
   autoload :Meta, 'docusign_transaction_rooms/models/meta'
 
+  autoload :Title, 'docusign_transaction_rooms/models/title'
+
+  autoload :Template, 'docusign_transaction_rooms/models/template'
+  autoload :TemplateOffice, 'docusign_transaction_rooms/models/template_office'
+  autoload :TemplateRegion, 'docusign_transaction_rooms/models/template_region'
+
+  autoload :Inbox, 'docusign_transaction_rooms/models/inbox'
+
+  autoload :Document, 'docusign_transaction_rooms/models/document'
+
+  autoload :Region, 'docusign_transaction_rooms/models/region'
+
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
@@ -56,6 +68,18 @@ module DocusignTransactionRooms
   autoload :MetaResource, 'docusign_transaction_rooms/resources/meta_resource'
 
   autoload :UserResource, 'docusign_transaction_rooms/resources/user_resource'
+
+  autoload :TitleResource, 'docusign_transaction_rooms/resources/title_resource'
+
+  autoload :TemplateResource, 'docusign_transaction_rooms/resources/template_resource'
+
+  autoload :InboxResource, 'docusign_transaction_rooms/resources/inbox_resource'
+
+  autoload :DocumentResource, 'docusign_transaction_rooms/resources/document_resource'
+
+  autoload :LoneWolfMetaResource, 'docusign_transaction_rooms/resources/lone_wolf_meta_resource'
+
+  autoload :RegionResource, 'docusign_transaction_rooms/resources/region_resource'
 
   # JSON Maps
   autoload :OfficeMapping, 'docusign_transaction_rooms/mappings/office_mapping'
@@ -89,6 +113,16 @@ module DocusignTransactionRooms
   autoload :RoomTaskListMapping, 'docusign_transaction_rooms/mappings/room_task_list_mapping'
 
   autoload :MetaMapping, 'docusign_transaction_rooms/mappings/meta_mapping'
+
+  autoload :TitleMapping, 'docusign_transaction_rooms/mappings/title_mapping'
+
+  autoload :TemplateMapping, 'docusign_transaction_rooms/mappings/template_mapping'
+
+  autoload :InboxMapping, 'docusign_transaction_rooms/mappings/inbox_mapping'
+
+  autoload :DocumentMapping, 'docusign_transaction_rooms/mappings/document_mapping'
+
+  autoload :RegionMapping, 'docusign_transaction_rooms/mappings/region_mapping'
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'

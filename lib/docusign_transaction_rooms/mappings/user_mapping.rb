@@ -4,7 +4,7 @@ module DocusignTransactionRooms
 
     kartograph do
       mapping User
-      root_key plural: 'users', scopes: [:read]
+      root_key plural: 'users', scopes: [:read, :document_access]
 
       scoped :read do
         property :userId
@@ -33,6 +33,10 @@ module DocusignTransactionRooms
       scoped :add_user do
         property :roleId
         property :transactionSideId
+      end
+
+      scoped :document_access do
+        property :userId
       end
     end
   end

@@ -3,6 +3,7 @@ module DocusignTransactionRooms
     attribute :id
     attribute :name
     attribute :displayOrder
+    attribute :code
   end
 end
 

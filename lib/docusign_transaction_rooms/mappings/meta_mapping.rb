@@ -12,6 +12,13 @@ module DocusignTransactionRooms
         property :displayOrder
       end
 
+      scoped :lone_wolf do
+        property :code
+        property :id
+        property :name
+        property :displayOrder
+      end
+
     end
   end
 end
@@ -25,3 +32,12 @@ end
 #     }
 #   ]
 # }
+
+# [
+#   {
+#     "code": "string",
+#     "id": "string",
+#     "name": "string",
+#     "displayOrder": 0
+#   }
+# ]
