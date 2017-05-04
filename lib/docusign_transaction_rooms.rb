@@ -8,7 +8,7 @@ module DocusignTransactionRooms
 
   # Models
   autoload :BaseModel, 'docusign_transaction_rooms/models/base_model'
-  
+
   autoload :Office, 'docusign_transaction_rooms/models/office'
   autoload :Address, 'docusign_transaction_rooms/models/address'
   autoload :Integration, 'docusign_transaction_rooms/models/integration'
@@ -48,6 +48,8 @@ module DocusignTransactionRooms
 
   autoload :Meta, 'docusign_transaction_rooms/models/meta'
 
+  autoload :Title, 'docusign_transaction_rooms/models/title'
+
    # Resources
   autoload :CompanyResource, 'docusign_transaction_rooms/resources/company_resource'
   autoload :MemberResource, 'docusign_transaction_rooms/resources/member_resource'
@@ -56,6 +58,8 @@ module DocusignTransactionRooms
   autoload :MetaResource, 'docusign_transaction_rooms/resources/meta_resource'
 
   autoload :UserResource, 'docusign_transaction_rooms/resources/user_resource'
+
+  autoload :TitleResource, 'docusign_transaction_rooms/resources/title_resource'
 
   # JSON Maps
   autoload :OfficeMapping, 'docusign_transaction_rooms/mappings/office_mapping'
@@ -89,6 +93,8 @@ module DocusignTransactionRooms
   autoload :RoomTaskListMapping, 'docusign_transaction_rooms/mappings/room_task_list_mapping'
 
   autoload :MetaMapping, 'docusign_transaction_rooms/mappings/meta_mapping'
+
+  autoload :TitleMapping, 'docusign_transaction_rooms/mappings/title_mapping'
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'

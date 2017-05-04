@@ -30,6 +30,7 @@ module DocusignTransactionRooms
         offices: OfficeResource,
         meta: MetaResource,
         rooms: RoomResource,
+        titles: TitleResource,
         users: UserResource
       }
     end
