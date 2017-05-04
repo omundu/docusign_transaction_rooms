@@ -45,6 +45,7 @@ module DocusignTransactionRooms
   autoload :RoomSubmission, 'docusign_transaction_rooms/models/room_submission'
   autoload :RoomTaskList, 'docusign_transaction_rooms/models/room_task_list'
   autoload :User, 'docusign_transaction_rooms/models/user'
+  autoload :Folder, 'docusign_transaction_rooms/models/room'
 
   autoload :Meta, 'docusign_transaction_rooms/models/meta'
 
@@ -122,6 +123,7 @@ module DocusignTransactionRooms
   autoload :RoomRejectionMapping, 'docusign_transaction_rooms/mappings/room_rejection_mapping'
   autoload :RoomSubmissionMapping, 'docusign_transaction_rooms/mappings/room_submission_mapping'
   autoload :RoomTaskListMapping, 'docusign_transaction_rooms/mappings/room_task_list_mapping'
+  autoload :FolderMapping, 'docusign_transaction_rooms/mappings/folder_mapping'
 
   autoload :MetaMapping, 'docusign_transaction_rooms/mappings/meta_mapping'
 
