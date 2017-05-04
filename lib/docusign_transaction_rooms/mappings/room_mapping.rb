@@ -22,7 +22,7 @@ module DocusignTransactionRooms
         property :integrationRoomDetails
       end
 
-      scoped :create, :update do
+      scoped :create do
         property :ownerId
         property :transactionSideId
         property :integratorData
@@ -37,9 +37,37 @@ module DocusignTransactionRooms
         property :integrationRoomDetails
       end
 
+      scoped :update do
+        property :integratorData
+        property :roomName
+        property :address, include: AddressMapping
+        property :details, include: DetailsMapping
+        property :roomImageUrl
+        property :loneWolfDetails, include: LoneWolfDetailsMapping
+        property :auctionDetails, include: AuctionDetailsMapping
+        property :profitPowerDetails, include: ProfitPowerDetailsMapping
+        property :integrationRoomDetails
+      end
+
     end
   end
 end
+
+# {
+#   "ownerId": "3041",
+#   "transactionSideId": "sell",
+#   "roleId": "title",
+#   "roomName": "API Room Name",
+#   "address": {
+#     "address1": "Add1API",
+#     "city": "CityAPI",
+#     "stateId": "US-WA",
+#     "countryId": "US"
+#   },
+#   "details": {
+#     "officeId":165
+#   }
+# }
 
 # Rooms
 # {

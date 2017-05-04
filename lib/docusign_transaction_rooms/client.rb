@@ -26,10 +26,18 @@ module DocusignTransactionRooms
     def self.resources
       {
         company: CompanyResource,
+        documents: DocumentResource,
+        inbox: InboxResource,
+        lone_wolf_meta: LoneWolfMetaResource,
         members: MemberResource,
         offices: OfficeResource,
+        regions: RegionResource,
         meta: MetaResource,
         rooms: RoomResource,
+        task_lists: TaskListResource,
+        tasks: TaskResource,
+        templates: TemplateResource,
+        titles: TitleResource,
         users: UserResource
       }
     end

@@ -69,7 +69,12 @@ client.offices.all
 ### Room
 ```ruby
 client.rooms.all
-client.rooms.create
+
+address = DocusignTransactionRooms::Address.new(address1: "1234 Main Street", city: "Smallville", stateId: "US-KS", countryId: "US")
+details = DocusignTransactionRooms::Detail.new(officeId: 1234)
+room = DocusignTransactionRooms::Room.new(ownerId: 1234, transactionSideId: "sell", roomName: "Clark Kent Flying School", roleId: "title", address: address, details: details)
+client.rooms.create(room)
+
 client.rooms.destroy(id: 1234)
 client.rooms.find(id: 1234)
 # client.rooms.patch(id: 1234) pending a better understanding of json-patch
