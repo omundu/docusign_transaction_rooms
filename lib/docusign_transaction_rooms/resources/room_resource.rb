@@ -14,7 +14,7 @@ module DocusignTransactionRooms
       action :create do
         verb :post
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms"
-        body { |room| RoomMapping.representation_for(:create, room) }
+        body { |object| RoomMapping.representation_for(:create, object) }
         handler(200) { |response| RoomMapping.extract_single(response.body, :read) }
       end
 
@@ -35,7 +35,7 @@ module DocusignTransactionRooms
       # PATCH   /v1/rooms/{id}
       # action :patch do
       #   verb :patch
-      #   body { |room| RoomMapping.representation_for(:patch, room) }
+      #   body { |object| RoomMapping.representation_for(:patch, object) }
       #   path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id"
       #   handler(200) { |response| RoomMapping.extract_single(response.body, :read) }
       # end
@@ -43,7 +43,7 @@ module DocusignTransactionRooms
       # PUT     /v1/rooms/{id}
       action :update do
         verb :put
-        body { |room| RoomMapping.representation_for(:update, room) }
+        body { |object| RoomMapping.representation_for(:update, object) }
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id"
         handler(200) { |response| RoomMapping.extract_single(response.body, :read) }
       end
@@ -144,6 +144,43 @@ module DocusignTransactionRooms
         body { |object| UserMapping.representation_for(:add_user, object) }
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/users/:user_id"
         handler(201) { |response| UserMapping.extract_single(response.body, :read) }
+      end
+
+      # GET    /v1/rooms/{id}/folders
+      action :folders do
+        verb :get
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/folders"
+        handler(200) { |response| FolderMapping.extract_collection(response.body, :read) }
+      end
+
+      # POST   /v1/rooms/{id}/folders
+      action :folders do
+        verb :post
+        body { |object| FolderMapping.representation_for(:create, object) }
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/folders"
+        handler(200) { |response| FolderMapping.extract_single(response.body, :read) }
+      end
+
+      # DELETE /v1/rooms/{id}/folders/{folderId}
+      action :folders do
+        verb :delete
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/folders/:folder_id"
+        handler(204) { |_| true }
+      end
+
+      # GET    /v1/rooms/{id}/folders/{folderId}
+      action :folders do
+        verb :get
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/folders/:folder_id"
+        handler(200) { |response| FolderMapping.extract_single(response.body, :read) }
+      end
+
+      # PUT    /v1/rooms/{id}/folders/{folderId}
+      action :folders do
+        verb :put
+        body { |object| FolderMapping.representation_for(:update, object) }
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/folders/:folder_id"
+        handler(200) { |response| FolderMapping.extract_collection(response.body, :read) }
       end
     end
 
