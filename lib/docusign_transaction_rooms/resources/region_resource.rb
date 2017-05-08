@@ -1,5 +1,5 @@
 module DocusignTransactionRooms
-  class InboxResource < ResourceKit::Resource
+  class RegionResource < ResourceKit::Resource
     include ErrorHandlingResourcable
 
     resources do

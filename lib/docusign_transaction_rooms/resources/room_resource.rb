@@ -154,7 +154,7 @@ module DocusignTransactionRooms
       end
 
       # POST   /v1/rooms/{id}/folders
-      action :folders do
+      action :create_folder do
         verb :post
         body { |object| FolderMapping.representation_for(:create, object) }
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/folders"
@@ -162,21 +162,21 @@ module DocusignTransactionRooms
       end
 
       # DELETE /v1/rooms/{id}/folders/{folderId}
-      action :folders do
+      action :destroy_folder do
         verb :delete
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/folders/:folder_id"
         handler(204) { |_| true }
       end
 
       # GET    /v1/rooms/{id}/folders/{folderId}
-      action :folders do
+      action :find_folder do
         verb :get
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/folders/:folder_id"
         handler(200) { |response| FolderMapping.extract_single(response.body, :read) }
       end
 
       # PUT    /v1/rooms/{id}/folders/{folderId}
-      action :folders do
+      action :update_folder do
         verb :put
         body { |object| FolderMapping.representation_for(:update, object) }
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms/:id/folders/:folder_id"
