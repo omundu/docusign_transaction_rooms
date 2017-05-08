@@ -4,7 +4,7 @@ module DocusignTransactionRooms
     attribute :viewLink
     attribute :roomName
     attribute :status
-    attribute :address
+    attribute :address, Address
     attribute :owners, Array[Owner]
     attribute :details, Details
     attribute :auctionDetails, AuctionDetails
