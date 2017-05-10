@@ -15,7 +15,7 @@ module DocusignTransactionRooms
         verb :post
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms"
         body { |object| RoomMapping.representation_for(:create, object) }
-        handler(200) { |response| RoomMapping.extract_single(response.body, :read) }
+        handler(201) { |response| RoomMapping.extract_single(response.body, :read) }
       end
 
       # DELETE  /v1/rooms/{id}
