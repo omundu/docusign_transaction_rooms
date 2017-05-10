@@ -6,6 +6,7 @@ module DocusignTransactionRooms
       # GET   /v1/members
       action :all do
         verb :get
+        query_keys :q
         path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/members"
         handler(200) { |response| MemberMapping.extract_collection(response.body, :read) }
       end
