@@ -5,7 +5,7 @@ module DocusignTransactionRooms
     kartograph do
       mapping TransactionParty
 
-      scoped :read, :create, :update do
+      scoped :read, :create, :update, :minimalist_create do
         property :company
         property :email
         property :name

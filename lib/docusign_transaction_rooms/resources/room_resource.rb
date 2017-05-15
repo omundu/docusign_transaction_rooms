@@ -18,6 +18,14 @@ module DocusignTransactionRooms
         handler(201) { |response| RoomMapping.extract_single(response.body, :read) }
       end
 
+      # POST    /v1/rooms
+      action :create_with_minimum_attributes do
+        verb :post
+        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/rooms"
+        body { |object| RoomMapping.representation_for(:minimalist_create, object) }
+        handler(201) { |response| RoomMapping.extract_single(response.body, :read) }
+      end
+
       # DELETE  /v1/rooms/{id}
       action :destroy do
         verb :delete

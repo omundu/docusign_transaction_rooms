@@ -37,6 +37,14 @@ module DocusignTransactionRooms
         property :integrationRoomDetails
       end
 
+      scoped :minimalist_create do
+        property :transactionSideId
+        property :roleId
+        property :roomName
+        property :address, include: AddressMapping
+        property :details, include: DetailsMapping
+      end
+
       scoped :update do
         property :integratorData
         property :roomName
