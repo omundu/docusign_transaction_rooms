@@ -85,7 +85,7 @@ module DocusignTransactionRooms
         property :apiClientData
       end
 
-      scopped :minimalist_create do
+      scoped :minimalist_create do
         property :mlsId
         property :seller1, include: TransactionPartyMapping
         property :seller2, include: TransactionPartyMapping
