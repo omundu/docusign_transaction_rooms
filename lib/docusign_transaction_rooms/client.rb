@@ -1,5 +1,4 @@
 require 'faraday'
-require 'pry'
 
 module DocusignTransactionRooms
   DOCUSIGN_TRANSACTION_ROOMS_API_PATH = 'restapi/v1'
