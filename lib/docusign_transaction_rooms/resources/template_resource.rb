@@ -6,7 +6,7 @@ module DocusignTransactionRooms
       # GET /v1/templates/task_lists
       action :task_lists do
         verb :get
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/templates/task_lists"
+        path "#{DocusignTransactionRooms.configuration.path_url}/templates/task_lists"
         handler(200) { |response| TemplateMapping.extract_collection(response.body, :read) }
       end
     end

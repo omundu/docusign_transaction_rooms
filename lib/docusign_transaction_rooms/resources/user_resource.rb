@@ -6,28 +6,28 @@ module DocusignTransactionRooms
       # GET  /v1/users/{id}/contact_info
       action :contact_info do
         verb :get
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/users/:id/contact_info"
+        path "#{DocusignTransactionRooms.configuration.path_url}/users/:id/contact_info"
         handler(200) { |response| ContactInfoMapping.extract_single(response.body, :read) }
       end
 
       # POST /v1/users/{id}/formsTerms
       action :forms_terms do
         verb :post
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/users/:id/formsTerms"
+        path "#{DocusignTransactionRooms.configuration.path_url}/users/:id/formsTerms"
         handler(200) { |_| true }
       end
 
       # GET  /v1/users/{id}/picture
       action :picture do
         verb :get
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/users/:id/picture"
+        path "#{DocusignTransactionRooms.configuration.path_url}/users/:id/picture"
         handler(200) { |response| JSON.parse(response.body) }
       end
 
       # GET  /v1/users/{id}/profile
       action :profile do
         verb :get
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/users/:id/profile"
+        path "#{DocusignTransactionRooms.configuration.path_url}/users/:id/profile"
         handler(200) { |response| ProfileMapping.extract_single(response.body, :read) }
       end
     end
