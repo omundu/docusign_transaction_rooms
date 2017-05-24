@@ -6,14 +6,14 @@ module DocusignTransactionRooms
       # DELETE /v1/task_lists/{id}
       action :destroy do
         verb :delete
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/task_lists/:id"
+        path "#{DocusignTransactionRooms.configuration.path_url}/task_lists/:id"
         handler(204) { |_| true }
       end
 
       # GET    /v1/task_lists/{id}
       action :find do
         verb :get
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/task_lists/:id"
+        path "#{DocusignTransactionRooms.configuration.path_url}/task_lists/:id"
         handler(200) { |response| TaskListMapping.extract_single(response.body, :read) }
       end
 
@@ -21,7 +21,7 @@ module DocusignTransactionRooms
       action :approval do
         verb :post
         body { |object| TaskListMapping.representation_for(:update, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/task_lists/:id/approval"
+        path "#{DocusignTransactionRooms.configuration.path_url}/task_lists/:id/approval"
         handler(201) { |response| TaskListMapping.extract_single(response.body, :read) }
       end
 
@@ -29,7 +29,7 @@ module DocusignTransactionRooms
       action :rejection do
         verb :post
         body { |object| TaskListMapping.representation_for(:update, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/task_lists/:id/rejection"
+        path "#{DocusignTransactionRooms.configuration.path_url}/task_lists/:id/rejection"
         handler(201) { |response| TaskListMapping.extract_single(response.body, :read) }
       end
 
@@ -37,7 +37,7 @@ module DocusignTransactionRooms
       action :submission do
         verb :post
         body { |object| TaskListMapping.representation_for(:update, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/task_lists/:id/submission"
+        path "#{DocusignTransactionRooms.configuration.path_url}/task_lists/:id/submission"
         handler(201) { |response| TaskListMapping.extract_single(response.body, :read) }
       end
       
@@ -45,7 +45,7 @@ module DocusignTransactionRooms
       action :tasks do
         verb :post
         body { |object| TaskListMapping.representation_for(:task, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/task_lists/:id/tasks"
+        path "#{DocusignTransactionRooms.configuration.path_url}/task_lists/:id/tasks"
         handler(201) { |response| TaskListMapping.extract_single(response.body, :read) }
       end
     end
