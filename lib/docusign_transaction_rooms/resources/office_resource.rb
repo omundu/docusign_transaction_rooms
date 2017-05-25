@@ -6,7 +6,7 @@ module DocusignTransactionRooms
       # GET  /v1/offices
       action :all do
         verb :get
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/offices"
+        path "#{DocusignTransactionRooms.configuration.path_url}/offices"
         handler(200) { |response| OfficeMapping.extract_collection(response.body, :read) }
       end
     end

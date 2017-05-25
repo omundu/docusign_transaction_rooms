@@ -1,5 +1,5 @@
 module DocusignTransactionRooms
-  class InboxResource < ResourceKit::Resource
+  class RegionResource < ResourceKit::Resource
     include ErrorHandlingResourcable
 
     resources do
@@ -7,7 +7,7 @@ module DocusignTransactionRooms
       # GET /v1/regions
       action :all do
         verb :get
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/regions"
+        path "#{DocusignTransactionRooms.configuration.path_url}/regions"
         handler(200) { |response| RegionMapping.extract_collection(response.body, :read) }
       end
 

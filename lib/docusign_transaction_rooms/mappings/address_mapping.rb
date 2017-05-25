@@ -5,7 +5,7 @@ module DocusignTransactionRooms
     kartograph do
       mapping Address
 
-      scoped :read, :create, :update do
+      scoped :read, :create, :update, :minimalist_create do
         property :address1
         property :address2
         property :city

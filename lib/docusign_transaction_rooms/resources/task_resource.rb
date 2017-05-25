@@ -6,21 +6,21 @@ module DocusignTransactionRooms
       # DELETE /v1/tasks/{id}
       action :destroy do
         verb :delete
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id"
         handler(204) { |_| true }
       end
 
       # GET    /v1/tasks/{id}
       action :find do
         verb :get
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id"
         handler(200) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 
       # PATCH  /v1/tasks/{id}
       # action :patch do
       #   verb :patch
-      #   path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id"
+      #   path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id"
       #   handler(200) { |response| TaskListMapping.extract_single(response.body, :read) }
       # end
 
@@ -28,7 +28,7 @@ module DocusignTransactionRooms
       action :update do
         verb :put
         body { |object| TaskMapping.representation_for(:update, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id"
         handler(200) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 
@@ -36,7 +36,7 @@ module DocusignTransactionRooms
       action :remove_approval do
         verb :delete
         body { |object| TaskMapping.representation_for(:approval, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/approval"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/approval"
         handler(204) { |_| true }
       end
 
@@ -44,7 +44,7 @@ module DocusignTransactionRooms
       action :approve_task do
         verb :post
         body { |object| TaskMapping.representation_for(:approval, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/approval"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/approval"
         handler(201) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 
@@ -52,7 +52,7 @@ module DocusignTransactionRooms
       action :create_task_assingment do
         verb :post
         body { |object| TaskMapping.representation_for(:assignment, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/assignments"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/assignments"
         handler(200) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 
@@ -60,14 +60,14 @@ module DocusignTransactionRooms
       action :update_task_assingment do
         verb :put
         body { |object| TaskMapping.representation_for(:assignment, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/assignments"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/assignments"
         handler(200) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 
       # DELETE /v1/tasks/{id}/assignments/{assigneeId}
       action :remove_task_assingment do
         verb :delete
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/assignments/:assignee_id"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/assignments/:assignee_id"
         handler(204) { |_| true }
       end
 
@@ -75,7 +75,7 @@ module DocusignTransactionRooms
       action :complete_task do
         verb :post
         body { |object| TaskMapping.representation_for(:approval, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/completion"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/completion"
         handler(200) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 
@@ -83,14 +83,14 @@ module DocusignTransactionRooms
       action :add_placeholder do
         verb :post
         body { |object| TaskMapping.representation_for(:placeholder, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/placeholders"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/placeholders"
         handler(201) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 
       # DELETE /v1/tasks/{id}/placeholders/{placeholderId}
       action :remove_placeholder do
         verb :delete
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/placeholders/:placeholder_id"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/placeholders/:placeholder_id"
         handler(204) { |_| true }
       end
 
@@ -98,14 +98,14 @@ module DocusignTransactionRooms
       action :update_placeholder do
         verb :put
         body { |object| TaskMapping.representation_for(:placeholder_name, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/placeholders/:placeholder_id"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/placeholders/:placeholder_id"
         handler(200) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 
       # DELETE /v1/tasks/{id}/placeholders/{placeholderId}/document
       action :unassign_document do
         verb :delete
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/placeholders/:placeholder_id/document"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/placeholders/:placeholder_id/document"
         handler(204) { |_| true }
       end
 
@@ -113,7 +113,7 @@ module DocusignTransactionRooms
       action :assign_document do
         verb :post
         body { |object| TaskMapping.representation_for(:document, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/placeholders/:placeholder_id/document"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/placeholders/:placeholder_id/document"
         handler(201) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 
@@ -121,7 +121,7 @@ module DocusignTransactionRooms
       action :reject_task do
         verb :post
         body { |object| TaskMapping.representation_for(:approval, object) }
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/tasks/:id/rejection"
+        path "#{DocusignTransactionRooms.configuration.path_url}/tasks/:id/rejection"
         handler(201) { |response| TaskMapping.extract_single(response.body, :read) }
       end
 

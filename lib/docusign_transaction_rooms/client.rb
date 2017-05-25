@@ -1,11 +1,8 @@
 require 'faraday'
-require 'pry'
 
 module DocusignTransactionRooms
-  DOCUSIGN_TRANSACTION_ROOMS_API_PATH = 'restapi/v1'
-
+  
   class Client
-    DOCUSIGN_TRANSACTION_ROOMS_API    = 'https://stage.cartavi.com'
 
     attr_reader :access_token
 
@@ -55,7 +52,7 @@ module DocusignTransactionRooms
 
     def connection_options
       {
-        url: DOCUSIGN_TRANSACTION_ROOMS_API,
+        url: DocusignTransactionRooms.configuration.api_url,
         headers: {
           content_type: 'application/json',
           authorization: "Bearer #{access_token}"

@@ -7,7 +7,7 @@ module DocusignTransactionRooms
       # GET /v1/inbox
       action :all do
         verb :get
-        path "#{DOCUSIGN_TRANSACTION_ROOMS_API_PATH}/inbox"
+        path "#{DocusignTransactionRooms.configuration.path_url}/inbox"
         handler(200) { |response| TitleMapping.extract_collection(response.body, :read) }
       end
 
