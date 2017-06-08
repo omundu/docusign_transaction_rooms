@@ -6,6 +6,7 @@ module DocusignTransactionRooms
       # GET     /v1/rooms
       action :all do
         verb :get
+        query_keys :dateRangeType, :startDate, :endDate, :count, :startPosition
         path "#{DocusignTransactionRooms.configuration.path_url}/rooms"
         handler(200) { |response| RoomMapping.extract_collection(response.body, :read) }
       end
