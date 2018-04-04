@@ -87,7 +87,7 @@ module DocusignTransactionRooms
 
       scoped :minimalist_create do
         property :mlsId
-        property :OfficeId
+        property :officeId
         property :seller1, include: TransactionPartyMapping
         property :seller2, include: TransactionPartyMapping
         property :buyer1, include: TransactionPartyMapping
