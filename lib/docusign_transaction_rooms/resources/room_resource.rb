@@ -23,7 +23,10 @@ module DocusignTransactionRooms
       action :create_with_minimum_attributes do
         verb :post
         path "#{DocusignTransactionRooms.configuration.path_url}/rooms"
-        body { |object| RoomMapping.representation_for(:minimalist_create, object) }
+        body do |object|
+          proc = Proc.new { |k, v| v.kind_of?(Hash) ? (v.delete_if(&proc); nil) : v.nil? }
+          RoomMapping.hash_for(:minimalist_create, object).delete_if(&proc).to_json
+        end
         handler(201) { |response| RoomMapping.extract_single(response.body, :read) }
       end
 
