@@ -59,6 +59,7 @@ module DocusignTransactionRooms
         property :seller2, include: TransactionPartyMapping
         property :buyer1, include: TransactionPartyMapping
         property :buyer2, include: TransactionPartyMapping
+        property :roomContacts, plural: true, include: RoomContactMapping
         property :buyerAgent1Company
         property :buyerAgent1Email
         property :buyerAgent1Name
@@ -88,10 +89,7 @@ module DocusignTransactionRooms
       scoped :minimalist_create do
         property :mlsId
         property :officeId
-        property :seller1, include: TransactionPartyMapping
-        property :seller2, include: TransactionPartyMapping
-        property :buyer1, include: TransactionPartyMapping
-        property :buyer2, include: TransactionPartyMapping
+        property :roomContacts, plural: true, include: RoomContactMapping
       end
 
       scoped :update do
@@ -147,6 +145,7 @@ module DocusignTransactionRooms
         property :seller2, include: TransactionPartyMapping
         property :buyer1, include: TransactionPartyMapping
         property :buyer2, include: TransactionPartyMapping
+        property :roomContacts, plural: true, include: RoomContactMapping
         property :buyerAgent1Company
         property :buyerAgent1Email
         property :buyerAgent1Name
@@ -176,6 +175,41 @@ module DocusignTransactionRooms
     end
   end
 end
+
+# "roomContacts": [
+#   {
+#     "roomContactId": 0,
+#     "roomId": 0,
+#     "roomContactTypeId": "string",
+#     "contactIndex": 0,
+#     "name": "string",
+#     "company": "string",
+#     "email": "string",
+#     "businessPhone": "string",
+#     "phone": "string",
+#     "cellPhone": "string",
+#     "address1": "string",
+#     "address2": "string",
+#     "city": "string",
+#     "stateId": "string",
+#     "postalCode": "string",
+#     "countryId": "string",
+#     "side": "string",
+#     "roomContactType": {
+#       "roomContactTypeId": "string",
+#       "roomContactTypeName": "string",
+#       "contactIndex": 0,
+#       "updatedDisplayName": "string",
+#       "roomContactIntegrations": [
+#         {
+#           "integrationTypeId": "string",
+#           "integrationContactType": "string",
+#           "integrationContactId": "string"
+#         }
+#       ]
+#     }
+#   }
+# ]
 
 # "details": {
 #   "officeId": 0,

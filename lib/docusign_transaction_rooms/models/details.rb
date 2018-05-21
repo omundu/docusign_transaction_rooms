@@ -59,6 +59,7 @@ module DocusignTransactionRooms
     attribute :seller2, TransactionParty
     attribute :buyer1, TransactionParty
     attribute :buyer2, TransactionParty
+    attribute :roomContacts, Array(RoomContact)
     attribute :buyerAgent1Company
     attribute :buyerAgent1Email
     attribute :buyerAgent1Name
