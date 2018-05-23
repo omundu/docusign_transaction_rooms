@@ -22,38 +22,3 @@ module DocusignTransactionRooms
   end
   
 end
-
-# "roomContacts": [
-#   {
-#     "roomContactId": 0,
-#     "roomId": 0,
-#     "roomContactTypeId": "string",
-#     "contactIndex": 0,
-#     "name": "string",
-#     "company": "string",
-#     "email": "string",
-#     "businessPhone": "string",
-#     "phone": "string",
-#     "cellPhone": "string",
-#     "address1": "string",
-#     "address2": "string",
-#     "city": "string",
-#     "stateId": "string",
-#     "postalCode": "string",
-#     "countryId": "string",
-#     "side": "string",
-#     "roomContactType": {
-#       "roomContactTypeId": "string",
-#       "roomContactTypeName": "string",
-#       "contactIndex": 0,
-#       "updatedDisplayName": "string",
-#       "roomContactIntegrations": [
-#         {
-#           "integrationTypeId": "string",
-#           "integrationContactType": "string",
-#           "integrationContactId": "string"
-#         }
-#       ]
-#     }
-#   }
-# ]

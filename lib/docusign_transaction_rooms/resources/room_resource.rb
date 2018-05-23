@@ -44,18 +44,23 @@ module DocusignTransactionRooms
         handler(200) { |response| RoomMapping.extract_single(response.body, :read) }
       end
 
-      # PATCH   /v1/rooms/{id}
-      # action :patch do
-      #   verb :patch
-      #   body { |object| RoomMapping.representation_for(:patch, object) }
-      #   path "#{DocusignTransactionRooms.configuration.path_url}/rooms/:id"
-      #   handler(200) { |response| RoomMapping.extract_single(response.body, :read) }
-      # end
-
       # PUT     /v1/rooms/{id}
       action :update do
         verb :put
-        body { |object| RoomMapping.representation_for(:update, object) }
+        body do |object|
+          proc = Proc.new do |k, v|
+            if v.kind_of?(Hash)
+              v.delete_if(&proc)
+              nil
+            elsif v.kind_of?(Array)
+              v.map{|x|x.delete_if(&proc)}
+              nil
+            else
+              v.nil?
+            end
+          end
+          RoomMapping.hash_for(:update, object).delete_if(&proc).to_json
+        end
         path "#{DocusignTransactionRooms.configuration.path_url}/rooms/:id"
         handler(200) { |response| RoomMapping.extract_single(response.body, :read) }
       end
