@@ -48,17 +48,7 @@ module DocusignTransactionRooms
       action :update do
         verb :put
         body do |object|
-          proc = Proc.new do |k, v|
-            if v.kind_of?(Hash)
-              v.delete_if(&proc)
-              nil
-            elsif v.kind_of?(Array)
-              v.map{|x|x.delete_if(&proc)}
-              nil
-            else
-              v.nil?
-            end
-          end
+          proc = Proc.new { |k, v| v.kind_of?(Hash) ? (v.delete_if(&proc); nil) : v.to_s.empty? }
           RoomMapping.hash_for(:update, object).delete_if(&proc).to_json
         end
         path "#{DocusignTransactionRooms.configuration.path_url}/rooms/:id"
