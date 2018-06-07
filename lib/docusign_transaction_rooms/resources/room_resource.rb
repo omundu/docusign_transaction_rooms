@@ -48,6 +48,8 @@ module DocusignTransactionRooms
       action :update do
         verb :put
         body do |object|
+          # traverses each element of a hash deleted keys where values are nil/empty.
+          # Recursively does this for arrays and hashes
           primp = proc do |*args|
             value = args.last
             value.delete_if(&primp) if [Hash, Array].include?(value.class)
