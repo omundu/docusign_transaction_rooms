@@ -48,8 +48,14 @@ module DocusignTransactionRooms
       action :update do
         verb :put
         body do |object|
-          proc = Proc.new { |k, v| v.kind_of?(Hash) ? (v.delete_if(&proc); nil) : v.to_s.empty? }
-          RoomMapping.hash_for(:update, object).delete_if(&proc).to_json
+          # traverses each element of a hash deleted keys where values are nil/empty.
+          # Recursively does this for arrays and hashes
+          primp = proc do |*args|
+            value = args.last
+            value.delete_if(&primp) if [Hash, Array].include?(value.class)
+            value.to_s.empty?
+          end
+          RoomMapping.hash_for(:update, object).delete_if(&primp).to_json
         end
         path "#{DocusignTransactionRooms.configuration.path_url}/rooms/:id"
         handler(200) { |response| RoomMapping.extract_single(response.body, :read) }
