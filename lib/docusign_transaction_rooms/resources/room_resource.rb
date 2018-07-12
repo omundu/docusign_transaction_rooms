@@ -197,5 +197,9 @@ module DocusignTransactionRooms
       end
     end
 
+    def all(*args)
+      PaginatedResource.new(action(:all), self, *args)
+    end
+
   end
 end
