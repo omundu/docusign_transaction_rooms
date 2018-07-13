@@ -1,0 +1,629 @@
+{
+  "rooms": [
+    {
+      "roomId": 101,
+      "roomName": "Room Number 101",
+      "address": {
+        "address1": "90641 Deckow Stream",
+        "city": "North Veronicaborough",
+        "stateId": "US-IA",
+        "postalCode": "51765",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 3,
+          "firstName": "Belle",
+          "lastName": "Kovacek",
+          "transactionSideId": "sell",
+          "officeId": 4000
+        }
+      ],
+      "officeId": 4000,
+      "latitude": -26.7521826859131,
+      "longitude": -42.6936228275552,
+      "createdDate": "2017-09-06 16:42:04 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Pending"
+    },
+    {
+      "roomId": 102,
+      "roomName": "Room Number 102",
+      "address": {
+        "address1": "841 Kerluke Alley",
+        "city": "Dionneville",
+        "stateId": "US-VA",
+        "postalCode": "49664",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 7,
+          "firstName": "Elijah",
+          "lastName": "Sanford",
+          "transactionSideId": "refi",
+          "officeId": 4003
+        }
+      ],
+      "officeId": 4003,
+      "latitude": -28.137819811383714,
+      "longitude": -101.86795346923537,
+      "createdDate": "2018-06-28 17:50:08 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Pending"
+    },
+    {
+      "roomId": 103,
+      "roomName": "Room Number 103",
+      "address": {
+        "address1": "5145 Stephen Village",
+        "city": "Voncileshire",
+        "stateId": "US-CA",
+        "postalCode": "70153",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 8,
+          "firstName": "Young",
+          "lastName": "Shields",
+          "transactionSideId": "buy",
+          "officeId": 4006
+        }
+      ],
+      "officeId": 4006,
+      "latitude": -56.32262067693368,
+      "longitude": 146.72734879370955,
+      "createdDate": "2018-04-21 20:23:22 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 104,
+      "roomName": "Room Number 104",
+      "address": {
+        "address1": "2156 Larry Track",
+        "city": "Blockview",
+        "stateId": "US-WV",
+        "postalCode": "68742",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 0,
+          "firstName": "Arden",
+          "lastName": "Rutherford",
+          "transactionSideId": "refi",
+          "officeId": 4002
+        }
+      ],
+      "officeId": 4002,
+      "latitude": -63.46941353974434,
+      "longitude": -135.56088296796494,
+      "createdDate": "2018-02-23 03:18:04 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    },
+    {
+      "roomId": 105,
+      "roomName": "Room Number 105",
+      "address": {
+        "address1": "713 Beahan Cliffs",
+        "city": "Hirtheport",
+        "stateId": "US-IL",
+        "postalCode": "79487",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 0,
+          "firstName": "Ty",
+          "lastName": "Rowe",
+          "transactionSideId": "refi",
+          "officeId": 4006
+        }
+      ],
+      "officeId": 4006,
+      "latitude": -10.172939486822187,
+      "longitude": 4.403603059368351,
+      "createdDate": "2018-02-03 16:10:34 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 106,
+      "roomName": "Room Number 106",
+      "address": {
+        "address1": "6024 Nicholas Mills",
+        "city": "West Lesley",
+        "stateId": "US-RI",
+        "postalCode": "55346",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 5,
+          "firstName": "Ardith",
+          "lastName": "Hackett",
+          "transactionSideId": "buy",
+          "officeId": 4000
+        }
+      ],
+      "officeId": 4000,
+      "latitude": 3.6168237442555977,
+      "longitude": 141.99369977197335,
+      "createdDate": "2017-09-29 22:26:10 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Closed"
+    },
+    {
+      "roomId": 107,
+      "roomName": "Room Number 107",
+      "address": {
+        "address1": "44431 Dannie Road",
+        "city": "East Daphneberg",
+        "stateId": "US-VA",
+        "postalCode": "72756-6451",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 4,
+          "firstName": "Dell",
+          "lastName": "Lang",
+          "transactionSideId": "buy",
+          "officeId": 4007
+        }
+      ],
+      "officeId": 4007,
+      "latitude": -65.57565422662636,
+      "longitude": 66.94382318449468,
+      "createdDate": "2018-01-13 19:23:58 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 108,
+      "roomName": "Room Number 108",
+      "address": {
+        "address1": "553 Cruickshank Pines",
+        "city": "Ziemannmouth",
+        "stateId": "US-NM",
+        "postalCode": "22875-1395",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 0,
+          "firstName": "Roger",
+          "lastName": "Bahringer",
+          "transactionSideId": "buy",
+          "officeId": 4004
+        }
+      ],
+      "officeId": 4004,
+      "latitude": 80.00412949036172,
+      "longitude": -19.33376398958751,
+      "createdDate": "2018-05-21 19:49:13 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 109,
+      "roomName": "Room Number 109",
+      "address": {
+        "address1": "553 Feeney Ranch",
+        "city": "McCulloughville",
+        "stateId": "US-NE",
+        "postalCode": "28712-1765",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 2,
+          "firstName": "Sheldon",
+          "lastName": "Bode",
+          "transactionSideId": "buy",
+          "officeId": 4007
+        }
+      ],
+      "officeId": 4007,
+      "latitude": 33.91527102643718,
+      "longitude": -54.417169325615504,
+      "createdDate": "2018-01-26 17:32:53 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 110,
+      "roomName": "Room Number 110",
+      "address": {
+        "address1": "183 Hettinger Gardens",
+        "city": "East Kiyokomouth",
+        "stateId": "US-WY",
+        "postalCode": "80845-4816",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 0,
+          "firstName": "Earl",
+          "lastName": "Grant",
+          "transactionSideId": "refi",
+          "officeId": 4004
+        }
+      ],
+      "officeId": 4004,
+      "latitude": 79.47853934798866,
+      "longitude": -8.15240753591678,
+      "createdDate": "2018-02-14 02:28:37 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Pending"
+    },
+    {
+      "roomId": 111,
+      "roomName": "Room Number 111",
+      "address": {
+        "address1": "77882 Cormier Pass",
+        "city": "Kohlerport",
+        "stateId": "US-NC",
+        "postalCode": "96711-7423",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 7,
+          "firstName": "Tiesha",
+          "lastName": "Volkman",
+          "transactionSideId": "buy",
+          "officeId": 4004
+        }
+      ],
+      "officeId": 4004,
+      "latitude": -69.68488229134974,
+      "longitude": -50.2070598496114,
+      "createdDate": "2018-06-07 05:14:47 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Pending"
+    },
+    {
+      "roomId": 112,
+      "roomName": "Room Number 112",
+      "address": {
+        "address1": "28330 Tamara Stream",
+        "city": "Catharinechester",
+        "stateId": "US-NM",
+        "postalCode": "21308",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 0,
+          "firstName": "Ervin",
+          "lastName": "Auer",
+          "transactionSideId": "refi",
+          "officeId": 4002
+        }
+      ],
+      "officeId": 4002,
+      "latitude": -34.253971124189924,
+      "longitude": -118.2053909447373,
+      "createdDate": "2018-06-04 19:33:16 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Pending"
+    },
+    {
+      "roomId": 113,
+      "roomName": "Room Number 113",
+      "address": {
+        "address1": "7319 Elease Port",
+        "city": "Bradshire",
+        "stateId": "US-VT",
+        "postalCode": "23420",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 6,
+          "firstName": "Merideth",
+          "lastName": "O'Keefe",
+          "transactionSideId": "buy",
+          "officeId": 4004
+        }
+      ],
+      "officeId": 4004,
+      "latitude": 1.3735918530274915,
+      "longitude": 125.01722095872924,
+      "createdDate": "2018-05-26 16:19:50 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Pending"
+    },
+    {
+      "roomId": 114,
+      "roomName": "Room Number 114",
+      "address": {
+        "address1": "6158 Gayle Landing",
+        "city": "South Rosendaville",
+        "stateId": "US-FL",
+        "postalCode": "36399-8728",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 6,
+          "firstName": "Jan",
+          "lastName": "Johnston",
+          "transactionSideId": "refi",
+          "officeId": 4001
+        }
+      ],
+      "officeId": 4001,
+      "latitude": 2.1999847474472176,
+      "longitude": -81.03291194404952,
+      "createdDate": "2018-05-19 12:11:42 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    },
+    {
+      "roomId": 115,
+      "roomName": "Room Number 115",
+      "address": {
+        "address1": "53613 Dominic Common",
+        "city": "Feilville",
+        "stateId": "US-RI",
+        "postalCode": "32850-0865",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 9,
+          "firstName": "Regine",
+          "lastName": "Jones",
+          "transactionSideId": "refi",
+          "officeId": 4002
+        }
+      ],
+      "officeId": 4002,
+      "latitude": 56.04953131410306,
+      "longitude": -170.8749702038973,
+      "createdDate": "2017-08-24 14:44:26 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Closed"
+    },
+    {
+      "roomId": 116,
+      "roomName": "Room Number 116",
+      "address": {
+        "address1": "790 Percy Keys",
+        "city": "Port Mariannafurt",
+        "stateId": "US-DE",
+        "postalCode": "06560-5245",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 5,
+          "firstName": "Barbera",
+          "lastName": "Tillman",
+          "transactionSideId": "refi",
+          "officeId": 4002
+        }
+      ],
+      "officeId": 4002,
+      "latitude": 64.28833390862803,
+      "longitude": 173.35359830403996,
+      "createdDate": "2018-05-03 03:40:43 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    },
+    {
+      "roomId": 117,
+      "roomName": "Room Number 117",
+      "address": {
+        "address1": "26666 Rolando Pass",
+        "city": "Rikkibury",
+        "stateId": "US-OH",
+        "postalCode": "35345",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 7,
+          "firstName": "Joey",
+          "lastName": "Heller",
+          "transactionSideId": "refi",
+          "officeId": 4000
+        }
+      ],
+      "officeId": 4000,
+      "latitude": 87.89785378105236,
+      "longitude": -1.8128557969883445,
+      "createdDate": "2018-03-22 14:28:03 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 118,
+      "roomName": "Room Number 118",
+      "address": {
+        "address1": "6468 Susy Flats",
+        "city": "Lake Basiliamouth",
+        "stateId": "US-NV",
+        "postalCode": "76404-6596",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 3,
+          "firstName": "Rex",
+          "lastName": "West",
+          "transactionSideId": "refi",
+          "officeId": 4005
+        }
+      ],
+      "officeId": 4005,
+      "latitude": -47.565390362346186,
+      "longitude": -174.33898788751375,
+      "createdDate": "2018-04-15 09:34:55 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    },
+    {
+      "roomId": 119,
+      "roomName": "Room Number 119",
+      "address": {
+        "address1": "4784 Raphael Oval",
+        "city": "New Josef",
+        "stateId": "US-CA",
+        "postalCode": "95463-1796",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 9,
+          "firstName": "Dwight",
+          "lastName": "Prohaska",
+          "transactionSideId": "buy",
+          "officeId": 4003
+        }
+      ],
+      "officeId": 4003,
+      "latitude": 9.077334828726762,
+      "longitude": -143.3039476667637,
+      "createdDate": "2017-12-01 07:54:05 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    },
+    {
+      "roomId": 120,
+      "roomName": "Room Number 120",
+      "address": {
+        "address1": "84348 Schmeler Orchard",
+        "city": "South Lennieview",
+        "stateId": "US-MI",
+        "postalCode": "77166-3997",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 7,
+          "firstName": "Brenton",
+          "lastName": "Treutel",
+          "transactionSideId": "listbuy",
+          "officeId": 4006
+        }
+      ],
+      "officeId": 4006,
+      "latitude": 38.599727269318834,
+      "longitude": 107.98310773232578,
+      "createdDate": "2017-07-31 08:16:12 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Closed"
+    },
+    {
+      "roomId": 121,
+      "roomName": "Room Number 121",
+      "address": {
+        "address1": "4818 Aufderhar Parkways",
+        "city": "Lake Jasmine",
+        "stateId": "US-AK",
+        "postalCode": "78654",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 1,
+          "firstName": "Buddy",
+          "lastName": "Ledner",
+          "transactionSideId": "listbuy",
+          "officeId": 4007
+        }
+      ],
+      "officeId": 4007,
+      "latitude": -39.89617075718713,
+      "longitude": 115.61876812282401,
+      "createdDate": "2017-11-18 07:52:33 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Closed"
+    },
+    {
+      "roomId": 122,
+      "roomName": "Room Number 122",
+      "address": {
+        "address1": "278 Lucio Stream",
+        "city": "Bradleyside",
+        "stateId": "US-WY",
+        "postalCode": "29110-5740",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 8,
+          "firstName": "Rueben",
+          "lastName": "Gibson",
+          "transactionSideId": "refi",
+          "officeId": 4006
+        }
+      ],
+      "officeId": 4006,
+      "latitude": -17.61476674913945,
+      "longitude": -48.52673424084165,
+      "createdDate": "2018-03-07 02:03:51 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 123,
+      "roomName": "Room Number 123",
+      "address": {
+        "address1": "742 Rohan Passage",
+        "city": "Mannview",
+        "stateId": "US-IN",
+        "postalCode": "28469",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 9,
+          "firstName": "Arvilla",
+          "lastName": "Hane",
+          "transactionSideId": "refi",
+          "officeId": 4004
+        }
+      ],
+      "officeId": 4004,
+      "latitude": 70.31467179658088,
+      "longitude": 66.65105252932489,
+      "createdDate": "2018-02-26 22:03:02 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    }
+  ],
+  "resultSetSize": 23,
+  "previousUri": "https://previous.url.com?startPosition=50&count=50",
+  "startPosition": 100,
+  "endPosition": 123
+}

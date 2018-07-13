@@ -1,5 +1,3 @@
-require 'pry'
-
 module DocusignTransactionRooms
   class PaginatedResource
     include Enumerable
@@ -57,7 +55,7 @@ module DocusignTransactionRooms
 
     def fetch_next_page
       retrieve(@start_position)
-      @start_position += 100
+      @start_position += self.count
     end
 
     def retrieve(start_position, count = self.count)
