@@ -5,12 +5,14 @@ module DocusignTransactionRooms
     COUNT = 100
 
     attr_reader :action, :resource, :collection
-    attr_accessor :start_position, :end_position, :result_size
+    attr_accessor :start_position, :end_position, :result_size, :next_uri, :previous_uri
 
     def initialize(action, resource, *args)
       @start_position = 0
       @end_position = nil
       @result_size = nil
+      @next_uri = nil
+      @previous_uri = nil
       @action = action
       @resource = resource
       @collection = []
@@ -33,7 +35,7 @@ module DocusignTransactionRooms
       Array(@collection[start..-1]).each do |element|
         yield(element)
       end
-
+      
       unless last?
         start = [@collection.size, start].max
         fetch_next_page
@@ -44,7 +46,7 @@ module DocusignTransactionRooms
     end
 
     def last?
-      @result_size < self.count
+      @next_uri.nil?
     end
 
     def ==(other)
@@ -67,6 +69,8 @@ module DocusignTransactionRooms
 
       meta = MetaInformation.extract_single(invoker.response.body, :read)
       @result_size = meta.resultSetSize.to_i
+      @next_uri = meta.nextUri
+      @previous_uri = meta.previousUri
     end
   end
 end

@@ -1,0 +1,412 @@
+{
+  "rooms": [
+    {
+      "roomId": 1,
+      "roomName": "Room Number 1",
+      "address": {
+        "address1": "202 Kuhn Course",
+        "city": "North Jerald",
+        "stateId": "US-AR",
+        "postalCode": "53281",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 6,
+          "firstName": "Kristy",
+          "lastName": "Hickle",
+          "transactionSideId": "buy",
+          "officeId": 4001
+        }
+      ],
+      "officeId": 4001,
+      "latitude": 0.8581790171760133,
+      "longitude": 157.95544235117637,
+      "createdDate": "2017-12-19 06:40:52 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Pending"
+    },
+    {
+      "roomId": 2,
+      "roomName": "Room Number 2",
+      "address": {
+        "address1": "83698 Lubowitz Pines",
+        "city": "Lake Jaquelynfort",
+        "stateId": "US-CT",
+        "postalCode": "15274",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 7,
+          "firstName": "Humberto",
+          "lastName": "Dibbert",
+          "transactionSideId": "sell",
+          "officeId": 4001
+        }
+      ],
+      "officeId": 4001,
+      "latitude": -41.971922569660684,
+      "longitude": -82.6364899653041,
+      "createdDate": "2017-08-02 14:53:36 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Closed"
+    },
+    {
+      "roomId": 3,
+      "roomName": "Room Number 3",
+      "address": {
+        "address1": "4136 Schaefer Parkway",
+        "city": "Kertzmannville",
+        "stateId": "US-PA",
+        "postalCode": "11409-4645",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 5,
+          "firstName": "Juan",
+          "lastName": "Marvin",
+          "transactionSideId": "refi",
+          "officeId": 4001
+        }
+      ],
+      "officeId": 4001,
+      "latitude": -72.01957775254587,
+      "longitude": -145.76286667804405,
+      "createdDate": "2018-04-27 03:53:15 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Closed"
+    },
+    {
+      "roomId": 4,
+      "roomName": "Room Number 4",
+      "address": {
+        "address1": "9196 Rosalia Plaza",
+        "city": "New Carrol",
+        "stateId": "US-CT",
+        "postalCode": "06193",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 2,
+          "firstName": "Jacquline",
+          "lastName": "Mertz",
+          "transactionSideId": "refi",
+          "officeId": 4005
+        }
+      ],
+      "officeId": 4005,
+      "latitude": -79.91127892604085,
+      "longitude": 143.71843824667934,
+      "createdDate": "2018-07-03 10:19:57 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 5,
+      "roomName": "Room Number 5",
+      "address": {
+        "address1": "36473 Ferry Plain",
+        "city": "Lake Andrewhaven",
+        "stateId": "US-WV",
+        "postalCode": "09278",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 5,
+          "firstName": "Brenna",
+          "lastName": "Effertz",
+          "transactionSideId": "listbuy",
+          "officeId": 4006
+        }
+      ],
+      "officeId": 4006,
+      "latitude": -14.709846787891209,
+      "longitude": 147.01136864562181,
+      "createdDate": "2018-03-29 00:55:53 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 6,
+      "roomName": "Room Number 6",
+      "address": {
+        "address1": "2895 Jakubowski Point",
+        "city": "Port Ardathville",
+        "stateId": "US-MO",
+        "postalCode": "75907-2473",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 9,
+          "firstName": "Elliott",
+          "lastName": "Harvey",
+          "transactionSideId": "sell",
+          "officeId": 4001
+        }
+      ],
+      "officeId": 4001,
+      "latitude": 20.960193656881458,
+      "longitude": 46.918936201283714,
+      "createdDate": "2018-05-10 16:23:21 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 7,
+      "roomName": "Room Number 7",
+      "address": {
+        "address1": "876 Mohr Unions",
+        "city": "Weldonshire",
+        "stateId": "US-KY",
+        "postalCode": "32272-3842",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 6,
+          "firstName": "Buford",
+          "lastName": "Dickinson",
+          "transactionSideId": "refi",
+          "officeId": 4006
+        }
+      ],
+      "officeId": 4006,
+      "latitude": -50.06867947990835,
+      "longitude": 156.55109106383878,
+      "createdDate": "2017-11-01 20:09:45 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    },
+    {
+      "roomId": 8,
+      "roomName": "Room Number 8",
+      "address": {
+        "address1": "88622 Schaden Field",
+        "city": "Tonettestad",
+        "stateId": "US-MA",
+        "postalCode": "63163",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 3,
+          "firstName": "Ulrike",
+          "lastName": "Mayert",
+          "transactionSideId": "listbuy",
+          "officeId": 4008
+        }
+      ],
+      "officeId": 4008,
+      "latitude": 69.45825944776632,
+      "longitude": 170.24061277218652,
+      "createdDate": "2017-12-30 07:33:52 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Pending"
+    },
+    {
+      "roomId": 9,
+      "roomName": "Room Number 9",
+      "address": {
+        "address1": "1731 Ollie Fort",
+        "city": "Nathanview",
+        "stateId": "US-WY",
+        "postalCode": "27800-7633",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 5,
+          "firstName": "Quinton",
+          "lastName": "Dooley",
+          "transactionSideId": "sell",
+          "officeId": 4009
+        }
+      ],
+      "officeId": 4009,
+      "latitude": 23.111646439944863,
+      "longitude": -151.8942915048796,
+      "createdDate": "2018-03-14 23:12:22 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Pending"
+    },
+    {
+      "roomId": 10,
+      "roomName": "Room Number 10",
+      "address": {
+        "address1": "198 Cary Ramp",
+        "city": "West Codyville",
+        "stateId": "US-WV",
+        "postalCode": "57723-1549",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 7,
+          "firstName": "Ned",
+          "lastName": "Schaefer",
+          "transactionSideId": "refi",
+          "officeId": 4010
+        }
+      ],
+      "officeId": 4010,
+      "latitude": -50.036084726698654,
+      "longitude": 146.96627010945554,
+      "createdDate": "2018-03-12 17:11:07 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    },
+    {
+      "roomId": 11,
+      "roomName": "Room Number 11",
+      "address": {
+        "address1": "34238 Ortiz Court",
+        "city": "Lindhaven",
+        "stateId": "US-LA",
+        "postalCode": "12055",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 2,
+          "firstName": "Elton",
+          "lastName": "Bailey",
+          "transactionSideId": "listbuy",
+          "officeId": 4003
+        }
+      ],
+      "officeId": 4003,
+      "latitude": 60.85128764038291,
+      "longitude": 16.37845895773995,
+      "createdDate": "2018-06-25 23:58:31 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    },
+    {
+      "roomId": 12,
+      "roomName": "Room Number 12",
+      "address": {
+        "address1": "69148 West Road",
+        "city": "Rogahnland",
+        "stateId": "US-TN",
+        "postalCode": "12005",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 6,
+          "firstName": "Lindsey",
+          "lastName": "Thiel",
+          "transactionSideId": "sell",
+          "officeId": 4003
+        }
+      ],
+      "officeId": 4003,
+      "latitude": 70.8500093629614,
+      "longitude": -82.35931101052924,
+      "createdDate": "2018-04-09 16:39:35 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Closed"
+    },
+    {
+      "roomId": 13,
+      "roomName": "Room Number 13",
+      "address": {
+        "address1": "431 Orn Cove",
+        "city": "West Agnesmouth",
+        "stateId": "US-VT",
+        "postalCode": "68196",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 9,
+          "firstName": "Russel",
+          "lastName": "Von",
+          "transactionSideId": "sell",
+          "officeId": 4006
+        }
+      ],
+      "officeId": 4006,
+      "latitude": -46.03210374683045,
+      "longitude": -27.696258333080664,
+      "createdDate": "2018-02-04 14:17:18 -0500",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Active"
+    },
+    {
+      "roomId": 14,
+      "roomName": "Room Number 14",
+      "address": {
+        "address1": "5780 Quentin Valleys",
+        "city": "Emeryfurt",
+        "stateId": "US-NM",
+        "postalCode": "46932-6367",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 5,
+          "firstName": "Frederick",
+          "lastName": "Braun",
+          "transactionSideId": "listbuy",
+          "officeId": 4009
+        }
+      ],
+      "officeId": 4009,
+      "latitude": 8.193720577979747,
+      "longitude": -13.328985502086994,
+      "createdDate": "2018-06-24 22:52:41 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    },
+    {
+      "roomId": 15,
+      "roomName": "Room Number 15",
+      "address": {
+        "address1": "25952 Dyan Extensions",
+        "city": "North Jefferey",
+        "stateId": "US-NE",
+        "postalCode": "93845",
+        "countryId": "US"
+      },
+      "owners": [
+        {
+          "userId": 2,
+          "firstName": "Meda",
+          "lastName": "Carter",
+          "transactionSideId": "sell",
+          "officeId": 4001
+        }
+      ],
+      "officeId": 4001,
+      "latitude": -38.77699219674554,
+      "longitude": 135.8616838344683,
+      "createdDate": "2017-09-15 16:54:57 -0400",
+      "closedStatusId": "",
+      "isUnderContract": false,
+      "status": "Open"
+    }
+  ],
+  "resultSetSize": 15,
+  "startPosition": 0,
+  "endPosition": 14
+}
