@@ -1,0 +1,349 @@
+{
+  "entities": [
+    {
+      "id": "envreg",
+      "name": "Envelope Registered",
+      "displayOrder": 0
+    },
+    {
+      "id": "envsent",
+      "name": "Envelope Sent",
+      "displayOrder": 0
+    },
+    {
+      "id": "envsignd",
+      "name": "Envelope Signed",
+      "displayOrder": 0
+    },
+    {
+      "id": "envcd",
+      "name": "Envelope Acknowledged",
+      "displayOrder": 0
+    },
+    {
+      "id": "envcc",
+      "name": "Envelope Received",
+      "displayOrder": 0
+    },
+    {
+      "id": "envcmplt",
+      "name": "Envelope Completed",
+      "displayOrder": 0
+    },
+    {
+      "id": "envdclnd",
+      "name": "Envelope Declined",
+      "displayOrder": 0
+    },
+    {
+      "id": "envvoidd",
+      "name": "Envelope Voided",
+      "displayOrder": 0
+    },
+    {
+      "id": "envview",
+      "name": "Envelope Viewed",
+      "displayOrder": 0
+    },
+    {
+      "id": "envcorrected",
+      "name": "Envelope Corrected",
+      "displayOrder": 0
+    },
+    {
+      "id": "envresent",
+      "name": "Envelope Resent",
+      "displayOrder": 0
+    },
+    {
+      "id": "envimport",
+      "name": "Envelope Imported",
+      "displayOrder": 0
+    },
+    {
+      "id": "envcreated",
+      "name": "Envelope Created",
+      "displayOrder": 0
+    },
+    {
+      "id": "usradd",
+      "name": "User Added to Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "usrrmv",
+      "name": "User Removed from Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "trcls",
+      "name": "Transaction Room Closed",
+      "displayOrder": 0
+    },
+    {
+      "id": "tropen",
+      "name": "Transaction Room Opened",
+      "displayOrder": 0
+    },
+    {
+      "id": "trview",
+      "name": "Transaction Room Viewed",
+      "displayOrder": 0
+    },
+    {
+      "id": "trsubmit",
+      "name": "Transaction Room Submitted For Review",
+      "displayOrder": 0
+    },
+    {
+      "id": "trreject",
+      "name": "Transaction Room Rejected",
+      "displayOrder": 0
+    },
+    {
+      "id": "trcreate",
+      "name": "Transaction Room Created",
+      "displayOrder": 0
+    },
+    {
+      "id": "clappld",
+      "name": "Checklist Applied to Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "clremvd",
+      "name": "Checklist Removed from Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "clsubmit",
+      "name": "Checklist Submitted",
+      "displayOrder": 0
+    },
+    {
+      "id": "clapprve",
+      "name": "Checklist Approved",
+      "displayOrder": 0
+    },
+    {
+      "id": "clreject",
+      "name": "Checklist Rejected",
+      "displayOrder": 0
+    },
+    {
+      "id": "usrleft",
+      "name": "Invited User Leaves Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "tskadd",
+      "name": "Task Added",
+      "displayOrder": 0
+    },
+    {
+      "id": "tskview",
+      "name": "Task Viewed",
+      "displayOrder": 0
+    },
+    {
+      "id": "tskedit",
+      "name": "Task Edited",
+      "displayOrder": 0
+    },
+    {
+      "id": "tskdel",
+      "name": "Task Deleted",
+      "displayOrder": 0
+    },
+    {
+      "id": "tskcomp",
+      "name": "Task Marked as Complete",
+      "displayOrder": 0
+    },
+    {
+      "id": "tskincmp",
+      "name": "Task Marked as Incomplete",
+      "displayOrder": 0
+    },
+    {
+      "id": "cciappr",
+      "name": "Room Task Approved",
+      "displayOrder": 0
+    },
+    {
+      "id": "ccirej",
+      "name": "Room Task Rejected",
+      "displayOrder": 0
+    },
+    {
+      "id": "tskaprrm",
+      "name": "Room Task Approval Removed",
+      "displayOrder": 0
+    },
+    {
+      "id": "trlwsbmt",
+      "name": "Transaction Room Details Submitted To Lone Wolf",
+      "displayOrder": 0
+    },
+    {
+      "id": "ownerpro",
+      "name": "Room Participant Changed to Owner",
+      "displayOrder": 0
+    },
+    {
+      "id": "ownerdem",
+      "name": "Room Owner Changed to Participant",
+      "displayOrder": 0
+    },
+    {
+      "id": "trchngsd",
+      "name": "Transaction Room Changed Side",
+      "displayOrder": 0
+    },
+    {
+      "id": "trcmnt",
+      "name": "Public Room Comment",
+      "displayOrder": 0
+    },
+    {
+      "id": "ptrcmnt",
+      "name": "Private Room Comment",
+      "displayOrder": 0
+    },
+    {
+      "id": "docadd",
+      "name": "Document Created",
+      "displayOrder": 0
+    },
+    {
+      "id": "docview",
+      "name": "Document Viewed",
+      "displayOrder": 0
+    },
+    {
+      "id": "docrename",
+      "name": "Document Renamed",
+      "displayOrder": 0
+    },
+    {
+      "id": "docshare",
+      "name": "Document Shared",
+      "displayOrder": 0
+    },
+    {
+      "id": "docrevoke",
+      "name": "Document Revoked",
+      "displayOrder": 0
+    },
+    {
+      "id": "docemaildest",
+      "name": "Document Emailed to Destination",
+      "displayOrder": 0
+    },
+    {
+      "id": "docfaxdest",
+      "name": "Document Faxed to Destination",
+      "displayOrder": 0
+    },
+    {
+      "id": "docemailinbx",
+      "name": "Document Emailed to Inbox",
+      "displayOrder": 0
+    },
+    {
+      "id": "docfaxinbx",
+      "name": "Document Faxed to Inbox",
+      "displayOrder": 0
+    },
+    {
+      "id": "copyfrommd",
+      "name": "Document Copied from My Docs",
+      "displayOrder": 0
+    },
+    {
+      "id": "copyfromtr",
+      "name": "Document Copied from Transaction Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "movefrommd",
+      "name": "Document Moved from My Docs",
+      "displayOrder": 0
+    },
+    {
+      "id": "dcfxouts",
+      "name": "Document Faxed to Destination Success",
+      "displayOrder": 0
+    },
+    {
+      "id": "dcfxoutf",
+      "name": "Document Faxed to Destination Failure",
+      "displayOrder": 0
+    },
+    {
+      "id": "docemailroom",
+      "name": "Document Emailed to Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "cciappr",
+      "name": "Closing Checklist Item Approved",
+      "displayOrder": 0
+    },
+    {
+      "id": "ccirej",
+      "name": "Closing Checklist Item Rejected",
+      "displayOrder": 0
+    },
+    {
+      "id": "cciasgnd",
+      "name": "Document Assigned to Checklist",
+      "displayOrder": 0
+    },
+    {
+      "id": "cciremvd",
+      "name": "Document Removed from Checklist",
+      "displayOrder": 0
+    },
+    {
+      "id": "zfnewdc",
+      "name": "ZipForm Content Updated",
+      "displayOrder": 0
+    },
+    {
+      "id": "tskaprrm",
+      "name": "Room Task Approval Removed",
+      "displayOrder": 0
+    },
+    {
+      "id": "movefromtr",
+      "name": "Document Moved from Transaction Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "movetotr",
+      "name": "Document Moved to Transaction Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "movefrominbx",
+      "name": "Document Moved from Inbox",
+      "displayOrder": 0
+    },
+    {
+      "id": "copyfrominbx",
+      "name": "Document Copied from Inbox",
+      "displayOrder": 0
+    },
+    {
+      "id": "dsfnewdc",
+      "name": "DocuSign Forms Content Updated",
+      "displayOrder": 0
+    },
+    {
+      "id": "envreg",
+      "name": "Document added to Envelope",
+      "displayOrder": 0
+    }
+  ]
+}

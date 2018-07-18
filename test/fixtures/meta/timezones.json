@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "id": "atlantic",
+      "name": "Atlantic",
+      "displayOrder": 0
+    },
+    {
+      "id": "eastern",
+      "name": "Eastern",
+      "displayOrder": 0
+    },
+    {
+      "id": "central",
+      "name": "Central",
+      "displayOrder": 0
+    },
+    {
+      "id": "mountain",
+      "name": "Mountain",
+      "displayOrder": 0
+    },
+    {
+      "id": "arizona",
+      "name": "Arizona",
+      "displayOrder": 0
+    },
+    {
+      "id": "pacific",
+      "name": "Pacific",
+      "displayOrder": 0
+    },
+    {
+      "id": "alaska",
+      "name": "Alaska",
+      "displayOrder": 0
+    },
+    {
+      "id": "hawaii",
+      "name": "Hawaii",
+      "displayOrder": 0
+    },
+    {
+      "id": "perth",
+      "name": "Western Australia (Perth)",
+      "displayOrder": 0
+    },
+    {
+      "id": "adlade",
+      "name": "Central Australia (Adelaide)",
+      "displayOrder": 0
+    },
+    {
+      "id": "darwin",
+      "name": "Central Australia (Darwin)",
+      "displayOrder": 0
+    },
+    {
+      "id": "brisbane",
+      "name": "Eastern Australia (Brisbane)",
+      "displayOrder": 0
+    },
+    {
+      "id": "sydney",
+      "name": "Eastern Australia (Canberra, Melbourne, Sydney)",
+      "displayOrder": 0
+    },
+    {
+      "id": "auckland",
+      "name": "New Zealand (Auckland, Wellington)",
+      "displayOrder": 0
+    },
+    {
+      "id": "chatham",
+      "name": "Chatham Islands (Waitangi)",
+      "displayOrder": 0
+    }
+  ]
+}

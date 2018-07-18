@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "id": "pend",
+      "name": "Pending",
+      "displayOrder": 0
+    },
+    {
+      "id": "appr",
+      "name": "Approved",
+      "displayOrder": 0
+    },
+    {
+      "id": "count",
+      "name": "Countered",
+      "displayOrder": 0
+    },
+    {
+      "id": "reject",
+      "name": "Rejected",
+      "displayOrder": 0
+    },
+    {
+      "id": "pendreject",
+      "name": "Pending Rejection",
+      "displayOrder": 0
+    }
+  ]
+}

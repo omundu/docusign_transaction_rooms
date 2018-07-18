@@ -1352,7 +1352,7 @@
     }
   ],
   "resultSetSize": 50,
-  "previousUri": "https://next.url.com?startPosition=0&count=50",
+  "nextUri": "https://next.url.com?startPosition=50&count=50",
   "startPosition": 0,
   "endPosition": 49
 }

@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "id": "real",
+      "name": "Realtor.com",
+      "displayOrder": 0
+    },
+    {
+      "id": "tru",
+      "name": "Trulia",
+      "displayOrder": 0
+    },
+    {
+      "id": "zill",
+      "name": "Zillow",
+      "displayOrder": 0
+    },
+    {
+      "id": "cw",
+      "name": "Company Website",
+      "displayOrder": 0
+    },
+    {
+      "id": "aw",
+      "name": "Agent Website",
+      "displayOrder": 0
+    },
+    {
+      "id": "oo",
+      "name": "Other Online",
+      "displayOrder": 0
+    },
+    {
+      "id": "mobl",
+      "name": "Mobile App",
+      "displayOrder": 0
+    },
+    {
+      "id": "socl",
+      "name": "Social Media",
+      "displayOrder": 0
+    },
+    {
+      "id": "pref",
+      "name": "Personal Referral",
+      "displayOrder": 0
+    },
+    {
+      "id": "cref",
+      "name": "Company Referral",
+      "displayOrder": 0
+    },
+    {
+      "id": "repeat",
+      "name": "Repeat Client",
+      "displayOrder": 0
+    },
+    {
+      "id": "relo",
+      "name": "Corporate Relocation",
+      "displayOrder": 0
+    },
+    {
+      "id": "prnt",
+      "name": "Print Marketing",
+      "displayOrder": 0
+    },
+    {
+      "id": "prspct",
+      "name": "Prospecting",
+      "displayOrder": 0
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "displayOrder": 0
+    },
+    {
+      "id": "reo",
+      "name": "REO (Real Estate Owned)",
+      "displayOrder": 0
+    }
+  ]
+}

@@ -3,6 +3,7 @@ module DocusignTransactionRooms
     include ErrorHandlingResourcable
 
     resources do
+
       # GET     /v1/rooms
       action :all do
         verb :get

@@ -5,8 +5,9 @@ module DocusignTransactionRooms
     kartograph do
       mapping Meta
       root_key plural: 'entities', scopes: [:read]
+      root_key plural: 'transactionSides', scopes: [:transaction_sides]
 
-      scoped :read do
+      scoped :read, :transaction_sides  do
         property :id
         property :name
         property :displayOrder

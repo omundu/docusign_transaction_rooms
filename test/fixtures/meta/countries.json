@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {
+      "id": "US",
+      "name": "United States",
+      "displayOrder": 0
+    },
+    {
+      "id": "CA",
+      "name": "Canada",
+      "displayOrder": 0
+    },
+    {
+      "id": "AU",
+      "name": "Australia",
+      "displayOrder": 0
+    },
+    {
+      "id": "NZ",
+      "name": "New Zealand",
+      "displayOrder": 0
+    }
+  ]
+}
