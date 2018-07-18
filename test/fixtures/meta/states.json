@@ -1,0 +1,648 @@
+{
+  "entities": [
+    {
+      "countryId": "US",
+      "stateAbbr": "AL",
+      "id": "US-AL",
+      "name": "Alabama",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "AB",
+      "id": "CA-AB",
+      "name": "Alberta",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "AU",
+      "stateAbbr": "NSW",
+      "id": "AU-NSW",
+      "name": "New South Wales",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "AUK",
+      "id": "NZ-AUK",
+      "name": "Auckland",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "AK",
+      "id": "US-AK",
+      "name": "Alaska",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "BC",
+      "id": "CA-BC",
+      "name": "British Columbia",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "AU",
+      "stateAbbr": "QLD",
+      "id": "AU-QLD",
+      "name": "Queensland",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "BOP",
+      "id": "NZ-BOP",
+      "name": "Bay of Plenty",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "AZ",
+      "id": "US-AZ",
+      "name": "Arizona",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "MB",
+      "id": "CA-MB",
+      "name": "Manitoba",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "AU",
+      "stateAbbr": "SA",
+      "id": "AU-SA",
+      "name": "South Australia",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "CAN",
+      "id": "NZ-CAN",
+      "name": "Canterbury",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "AR",
+      "id": "US-AR",
+      "name": "Arkansas",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "NB",
+      "id": "CA-NB",
+      "name": "New Brunswick",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "AU",
+      "stateAbbr": "TAS",
+      "id": "AU-TAS",
+      "name": "Tasmania",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "HKB",
+      "id": "NZ-HKB",
+      "name": "Hawke's Bay",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "CA",
+      "id": "US-CA",
+      "name": "California",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "NL",
+      "id": "CA-NL",
+      "name": "Newfoundland and Labrador",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "AU",
+      "stateAbbr": "VIC",
+      "id": "AU-VIC",
+      "name": "Victoria",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "MWT",
+      "id": "NZ-MWT",
+      "name": "Manawatu-Wanganui",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "CO",
+      "id": "US-CO",
+      "name": "Colorado",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "NT",
+      "id": "CA-NT",
+      "name": "Northwest Territories",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "AU",
+      "stateAbbr": "WA",
+      "id": "AU-WA",
+      "name": "Western Australia",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "NTL",
+      "id": "NZ-NTL",
+      "name": "Northland",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "CT",
+      "id": "US-CT",
+      "name": "Connecticut",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "NS",
+      "id": "CA-NS",
+      "name": "Nova Scotia",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "AU",
+      "stateAbbr": "ACT",
+      "id": "AU-ACT",
+      "name": "Australian Capital Territory",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "OTA",
+      "id": "NZ-OTA",
+      "name": "Otago",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "DE",
+      "id": "US-DE",
+      "name": "Delaware",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "NU",
+      "id": "CA-NU",
+      "name": "Nunavut",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "AU",
+      "stateAbbr": "NT",
+      "id": "AU-NT",
+      "name": "Northern Territory",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "STL",
+      "id": "NZ-STL",
+      "name": "Southland",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "DC",
+      "id": "US-DC",
+      "name": "District of Columbia",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "ON",
+      "id": "CA-ON",
+      "name": "Ontario",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "TKI",
+      "id": "NZ-TKI",
+      "name": "Taranaki",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "FL",
+      "id": "US-FL",
+      "name": "Florida",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "PE",
+      "id": "CA-PE",
+      "name": "Prince Edward Island",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "WKO",
+      "id": "NZ-WKO",
+      "name": "Waikato",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "GA",
+      "id": "US-GA",
+      "name": "Georgia",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "QC",
+      "id": "CA-QC",
+      "name": "Quebec",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "WGN",
+      "id": "NZ-WGN",
+      "name": "Wellington",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "GU",
+      "id": "US-GU",
+      "name": "Guam",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "SK",
+      "id": "CA-SK",
+      "name": "Saskatchewan",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "WTC",
+      "id": "NZ-WTC",
+      "name": "West Coast",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "HI",
+      "id": "US-HI",
+      "name": "Hawaii",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "CA",
+      "stateAbbr": "YT",
+      "id": "CA-YT",
+      "name": "Yukon",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "GIS",
+      "id": "NZ-GIS",
+      "name": "Gisborne District",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "ID",
+      "id": "US-ID",
+      "name": "Idaho",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "MBH",
+      "id": "NZ-MBH",
+      "name": "Marlborough District",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "IL",
+      "id": "US-IL",
+      "name": "Illinois",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "NSN",
+      "id": "NZ-NSN",
+      "name": "Nelson City",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "IN",
+      "id": "US-IN",
+      "name": "Indiana",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "TAS",
+      "id": "NZ-TAS",
+      "name": "Tasman District",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "IA",
+      "id": "US-IA",
+      "name": "Iowa",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "NZ",
+      "stateAbbr": "CIT",
+      "id": "NZ-CIT",
+      "name": "Chatham Islands Territory",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "KS",
+      "id": "US-KS",
+      "name": "Kansas",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "KY",
+      "id": "US-KY",
+      "name": "Kentucky",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "LA",
+      "id": "US-LA",
+      "name": "Louisiana",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "ME",
+      "id": "US-ME",
+      "name": "Maine",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "MD",
+      "id": "US-MD",
+      "name": "Maryland",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "MA",
+      "id": "US-MA",
+      "name": "Massachusetts",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "MI",
+      "id": "US-MI",
+      "name": "Michigan",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "MN",
+      "id": "US-MN",
+      "name": "Minnesota",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "MS",
+      "id": "US-MS",
+      "name": "Mississippi",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "MO",
+      "id": "US-MO",
+      "name": "Missouri",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "MT",
+      "id": "US-MT",
+      "name": "Montana",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "NE",
+      "id": "US-NE",
+      "name": "Nebraska",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "NV",
+      "id": "US-NV",
+      "name": "Nevada",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "NH",
+      "id": "US-NH",
+      "name": "New Hampshire",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "NJ",
+      "id": "US-NJ",
+      "name": "New Jersey",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "NM",
+      "id": "US-NM",
+      "name": "New Mexico",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "NY",
+      "id": "US-NY",
+      "name": "New York",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "NC",
+      "id": "US-NC",
+      "name": "North Carolina",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "ND",
+      "id": "US-ND",
+      "name": "North Dakota",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "OH",
+      "id": "US-OH",
+      "name": "Ohio",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "OK",
+      "id": "US-OK",
+      "name": "Oklahoma",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "OR",
+      "id": "US-OR",
+      "name": "Oregon",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "PA",
+      "id": "US-PA",
+      "name": "Pennsylvania",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "PR",
+      "id": "US-PR",
+      "name": "Puerto Rico",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "RI",
+      "id": "US-RI",
+      "name": "Rhode Island",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "SC",
+      "id": "US-SC",
+      "name": "South Carolina",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "SD",
+      "id": "US-SD",
+      "name": "South Dakota",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "TN",
+      "id": "US-TN",
+      "name": "Tennessee",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "TX",
+      "id": "US-TX",
+      "name": "Texas",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "VI",
+      "id": "US-VI",
+      "name": "US Virgin Islands",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "UT",
+      "id": "US-UT",
+      "name": "Utah",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "VT",
+      "id": "US-VT",
+      "name": "Vermont",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "VA",
+      "id": "US-VA",
+      "name": "Virginia",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "WA",
+      "id": "US-WA",
+      "name": "Washington",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "WV",
+      "id": "US-WV",
+      "name": "West Virginia",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "WI",
+      "id": "US-WI",
+      "name": "Wisconsin",
+      "displayOrder": 0
+    },
+    {
+      "countryId": "US",
+      "stateAbbr": "WY",
+      "id": "US-WY",
+      "name": "Wyoming",
+      "displayOrder": 0
+    }
+  ]
+}

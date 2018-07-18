@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "id": "sd",
+      "name": "Specific Calendar Date",
+      "displayOrder": 0
+    },
+    {
+      "id": "tdd",
+      "name": "Task Due Date",
+      "displayOrder": 0
+    },
+    {
+      "id": "acd",
+      "name": "Actual Close Date",
+      "displayOrder": 0
+    },
+    {
+      "id": "bd",
+      "name": "Binding Date",
+      "displayOrder": 0
+    },
+    {
+      "id": "crd",
+      "name": "Contingency Removal Date",
+      "displayOrder": 0
+    },
+    {
+      "id": "cd",
+      "name": "Contract Date",
+      "displayOrder": 0
+    },
+    {
+      "id": "ecd",
+      "name": "Expected Closing Date",
+      "displayOrder": 0
+    },
+    {
+      "id": "ld",
+      "name": "Listing Date",
+      "displayOrder": 0
+    },
+    {
+      "id": "led",
+      "name": "Listing Expiration Date",
+      "displayOrder": 0
+    },
+    {
+      "id": "od",
+      "name": "Offer Date",
+      "displayOrder": 0
+    }
+  ]
+}

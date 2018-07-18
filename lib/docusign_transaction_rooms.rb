@@ -52,6 +52,7 @@ module DocusignTransactionRooms
   autoload :Folder, 'docusign_transaction_rooms/models/room'
 
   autoload :Meta, 'docusign_transaction_rooms/models/meta'
+  autoload :MetaInformation, 'docusign_transaction_rooms/models/meta_information'
 
   autoload :Title, 'docusign_transaction_rooms/models/title'
 
@@ -150,6 +151,7 @@ module DocusignTransactionRooms
 
    # Utils
   autoload :ErrorHandlingResourcable, 'docusign_transaction_rooms/error_handling_resourcable'
+  autoload :PaginatedResource, 'docusign_transaction_rooms/paginated_resource'
 
   # Errors
   autoload :ErrorMapping, 'droplet_kit/mappings/error_mapping'

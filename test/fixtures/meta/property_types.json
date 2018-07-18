@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "id": "resd",
+      "name": "Residential Detached",
+      "displayOrder": 0
+    },
+    {
+      "id": "resa",
+      "name": "Residential Attached",
+      "displayOrder": 0
+    },
+    {
+      "id": "new",
+      "name": "New Construction",
+      "displayOrder": 0
+    },
+    {
+      "id": "rdl",
+      "name": "Residential Developed Lots",
+      "displayOrder": 0
+    },
+    {
+      "id": "lf",
+      "name": "Land/Farm",
+      "displayOrder": 0
+    },
+    {
+      "id": "rent",
+      "name": "Rental",
+      "displayOrder": 0
+    },
+    {
+      "id": "comm",
+      "name": "Commercial",
+      "displayOrder": 0
+    },
+    {
+      "id": "condo",
+      "name": "Condominium",
+      "displayOrder": 0
+    },
+    {
+      "id": "mobl",
+      "name": "Mobile Home",
+      "displayOrder": 0
+    }
+  ]
+}

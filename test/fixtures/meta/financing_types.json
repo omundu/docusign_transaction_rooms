@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {
+      "id": "cash",
+      "name": "Cash",
+      "displayOrder": 0
+    },
+    {
+      "id": "conv",
+      "name": "Conventional",
+      "displayOrder": 0
+    },
+    {
+      "id": "fha",
+      "name": "FHA",
+      "displayOrder": 0
+    },
+    {
+      "id": "va",
+      "name": "VA",
+      "displayOrder": 0
+    },
+    {
+      "id": "usda",
+      "name": "USDA",
+      "displayOrder": 0
+    },
+    {
+      "id": "bc",
+      "name": "Bitcoin",
+      "displayOrder": 0
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "displayOrder": 0
+    }
+  ]
+}

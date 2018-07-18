@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "id": "ss",
+      "name": "Short Sale",
+      "displayOrder": 0
+    },
+    {
+      "id": "fc",
+      "name": "Foreclosure",
+      "displayOrder": 0
+    },
+    {
+      "id": "co",
+      "name": "Corporate Owned",
+      "displayOrder": 0
+    },
+    {
+      "id": "hist",
+      "name": "Historical",
+      "displayOrder": 0
+    },
+    {
+      "id": "io",
+      "name": "Investor Owned",
+      "displayOrder": 0
+    },
+    {
+      "id": "hud",
+      "name": "HUD",
+      "displayOrder": 0
+    },
+    {
+      "id": "es",
+      "name": "Estate Sale",
+      "displayOrder": 0
+    },
+    {
+      "id": "relo",
+      "name": "Relocation",
+      "displayOrder": 0
+    },
+    {
+      "id": "cntngncy",
+      "name": "Contingency",
+      "displayOrder": 0
+    }
+  ]
+}

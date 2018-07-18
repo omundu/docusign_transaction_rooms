@@ -1,0 +1,24 @@
+{
+  "transactionSides": [
+    {
+      "id": "sell",
+      "name": "List Side",
+      "displayOrder": 0
+    },
+    {
+      "id": "buy",
+      "name": "Buy Side",
+      "displayOrder": 0
+    },
+    {
+      "id": "listbuy",
+      "name": "List & Buy Side",
+      "displayOrder": 0
+    },
+    {
+      "id": "refi",
+      "name": "Refinance",
+      "displayOrder": 0
+    }
+  ]
+}

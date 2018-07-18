@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "defaultTransactionSideId": "sell",
+      "defaultRoleId": "seller",
+      "id": "seller",
+      "name": "Seller",
+      "displayOrder": 1
+    },
+    {
+      "defaultTransactionSideId": "sell",
+      "defaultRoleId": "reagent",
+      "id": "lisagent",
+      "name": "Listing Agent",
+      "displayOrder": 2
+    },
+    {
+      "defaultTransactionSideId": "buy",
+      "defaultRoleId": "buyer",
+      "id": "buyer",
+      "name": "Buyer",
+      "displayOrder": 3
+    },
+    {
+      "defaultTransactionSideId": "buy",
+      "defaultRoleId": "reagent",
+      "id": "buyagent",
+      "name": "Buyer Agent",
+      "displayOrder": 4
+    },
+    {
+      "defaultTransactionSideId": "buy",
+      "defaultRoleId": "provider",
+      "id": "provider",
+      "name": "Service Provider",
+      "displayOrder": 5
+    },
+    {
+      "defaultTransactionSideId": "buy",
+      "defaultRoleId": "trancord",
+      "id": "trancord",
+      "name": "Transaction Coordinator",
+      "displayOrder": 6
+    },
+    {
+      "defaultTransactionSideId": "buy",
+      "defaultRoleId": "rebroker",
+      "id": "buybrkr",
+      "name": "Buyer Broker",
+      "displayOrder": 13
+    },
+    {
+      "defaultTransactionSideId": "sell",
+      "defaultRoleId": "rebroker",
+      "id": "listbrkr",
+      "name": "Listing Broker",
+      "displayOrder": 14
+    }
+  ]
+}

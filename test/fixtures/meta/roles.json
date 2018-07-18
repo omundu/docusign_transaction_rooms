@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "id": "buyer",
+      "name": "Buyer",
+      "displayOrder": 0
+    },
+    {
+      "id": "seller",
+      "name": "Seller",
+      "displayOrder": 0
+    },
+    {
+      "id": "reagent",
+      "name": "Real Estate Agent",
+      "displayOrder": 0
+    },
+    {
+      "id": "rebroker",
+      "name": "Real Estate Broker",
+      "displayOrder": 0
+    },
+    {
+      "id": "attorney",
+      "name": "Attorney",
+      "displayOrder": 0
+    },
+    {
+      "id": "appraisr",
+      "name": "Appraiser",
+      "displayOrder": 0
+    },
+    {
+      "id": "surveyor",
+      "name": "Surveyor",
+      "displayOrder": 0
+    },
+    {
+      "id": "hminspct",
+      "name": "Home Inspector",
+      "displayOrder": 0
+    },
+    {
+      "id": "lender",
+      "name": "Loan Officer",
+      "displayOrder": 0
+    },
+    {
+      "id": "title",
+      "name": "Title",
+      "displayOrder": 0
+    },
+    {
+      "id": "accontnt",
+      "name": "Accountant",
+      "displayOrder": 0
+    },
+    {
+      "id": "client",
+      "name": "Client",
+      "displayOrder": 0
+    },
+    {
+      "id": "asst",
+      "name": "Assistant",
+      "displayOrder": 0
+    },
+    {
+      "id": "clntserv",
+      "name": "Client Services",
+      "displayOrder": 0
+    },
+    {
+      "id": "loanproc",
+      "name": "Loan Processor",
+      "displayOrder": 0
+    },
+    {
+      "id": "relocsp",
+      "name": "Relocation Specialist",
+      "displayOrder": 0
+    },
+    {
+      "id": "trancord",
+      "name": "Transaction Coordinator",
+      "displayOrder": 0
+    },
+    {
+      "id": "escrwoff",
+      "name": "Escrow Officer",
+      "displayOrder": 0
+    },
+    {
+      "id": "propmngr",
+      "name": "Property Manager",
+      "displayOrder": 0
+    },
+    {
+      "id": "shrtsale",
+      "name": "Short Sale Negotiator",
+      "displayOrder": 0
+    },
+    {
+      "id": "tenant",
+      "name": "Tenant",
+      "displayOrder": 0
+    },
+    {
+      "id": "landlord",
+      "name": "Landlord",
+      "displayOrder": 0
+    },
+    {
+      "id": "paralegl",
+      "name": "Paralegal",
+      "displayOrder": 0
+    },
+    {
+      "id": "bodycorp",
+      "name": "Body Corporate",
+      "displayOrder": 0
+    },
+    {
+      "id": "buildr",
+      "name": "Builder",
+      "displayOrder": 0
+    },
+    {
+      "id": "crtfr",
+      "name": "Certifier",
+      "displayOrder": 0
+    },
+    {
+      "id": "engnr",
+      "name": "Engineer",
+      "displayOrder": 0
+    },
+    {
+      "id": "finplan",
+      "name": "Financial Planner",
+      "displayOrder": 0
+    },
+    {
+      "id": "convyncr",
+      "name": "Conveyancer ",
+      "displayOrder": 0
+    },
+    {
+      "id": "mrtbrkr",
+      "name": "Mortgage Broker",
+      "displayOrder": 0
+    },
+    {
+      "id": "sprannfm",
+      "name": "Superannuation Fund Manager",
+      "displayOrder": 0
+    },
+    {
+      "id": "trade",
+      "name": "Tradesperson",
+      "displayOrder": 0
+    },
+    {
+      "id": "supplr",
+      "name": "Supplier",
+      "displayOrder": 0
+    },
+    {
+      "id": "offadmin",
+      "name": "Office Administrator",
+      "displayOrder": 0
+    },
+    {
+      "id": "undwritr",
+      "name": "Underwriter",
+      "displayOrder": 0
+    },
+    {
+      "id": "salesrep",
+      "name": "Sales Rep",
+      "displayOrder": 0
+    },
+    {
+      "id": "mortcslt",
+      "name": "Mortgage Consultant",
+      "displayOrder": 0
+    },
+    {
+      "id": "teammem",
+      "name": "Team Member",
+      "displayOrder": 0
+    },
+    {
+      "id": "provider",
+      "name": "Service Provider",
+      "displayOrder": 0
+    }
+  ]
+}

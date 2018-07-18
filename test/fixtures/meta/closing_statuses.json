@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "id": "sold",
+      "name": "Property Sold",
+      "displayOrder": 0
+    },
+    {
+      "id": "dup",
+      "name": "Duplicate Room",
+      "displayOrder": 0
+    },
+    {
+      "id": "escrcncl",
+      "name": "Escrow Cancelled",
+      "displayOrder": 0
+    },
+    {
+      "id": "inspctn",
+      "name": "Inspection Issues",
+      "displayOrder": 0
+    },
+    {
+      "id": "exp",
+      "name": "Listing Expired",
+      "displayOrder": 0
+    },
+    {
+      "id": "lostbuy",
+      "name": "Buyer Withdrew",
+      "displayOrder": 0
+    },
+    {
+      "id": "lost",
+      "name": "Listing Withdrawn",
+      "displayOrder": 0
+    },
+    {
+      "id": "newlist",
+      "name": "New Listing",
+      "displayOrder": 0
+    },
+    {
+      "id": "offrrjct",
+      "name": "Offer Not Accepted",
+      "displayOrder": 0
+    },
+    {
+      "id": "pend",
+      "name": "Pending",
+      "displayOrder": 0
+    }
+  ]
+}

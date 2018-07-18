@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "id": "L",
+      "name": "Listing",
+      "displayOrder": 0
+    },
+    {
+      "id": "S",
+      "name": "Selling",
+      "displayOrder": 0
+    }
+  ]
+}

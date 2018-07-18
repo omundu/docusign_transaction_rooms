@@ -3,6 +3,7 @@ module DocusignTransactionRooms
     include ErrorHandlingResourcable
 
     resources do
+
       # GET     /v1/rooms
       action :all do
         verb :get
@@ -195,6 +196,10 @@ module DocusignTransactionRooms
         path "#{DocusignTransactionRooms.configuration.path_url}/rooms/:id/folders/:folder_id"
         handler(200) { |response| FolderMapping.extract_collection(response.body, :read) }
       end
+    end
+
+    def all(*args)
+      PaginatedResource.new(action(:all), self, *args)
     end
 
   end

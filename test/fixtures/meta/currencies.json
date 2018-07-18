@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {
+      "id": "USD",
+      "name": "United States Dollar",
+      "displayOrder": 0
+    },
+    {
+      "id": "CAD",
+      "name": "Canadian Dollar",
+      "displayOrder": 0
+    },
+    {
+      "id": "AUD",
+      "name": "Australian Dollar",
+      "displayOrder": 0
+    },
+    {
+      "id": "NZD",
+      "name": "New Zealand Dollar",
+      "displayOrder": 0
+    }
+  ]
+}

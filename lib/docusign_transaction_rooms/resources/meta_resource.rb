@@ -100,6 +100,7 @@ module DocusignTransactionRooms
       action :transaction_sides do
         verb :get
         path "#{DocusignTransactionRooms.configuration.path_url}/meta/transaction_sides"
+        handler(200) { |response| MetaMapping.extract_collection(response.body, :transaction_sides) }
       end
     end
 
