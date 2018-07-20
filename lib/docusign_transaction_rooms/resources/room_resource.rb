@@ -10,6 +10,7 @@ module DocusignTransactionRooms
         query_keys :dateRangeType, :startDate, :endDate, :count, :startPosition
         path "#{DocusignTransactionRooms.configuration.path_url}/rooms"
         handler(200) { |response| RoomMapping.extract_collection(response.body, :read) }
+        handler(204) { |_| [] }
       end
 
       # POST    /v1/rooms

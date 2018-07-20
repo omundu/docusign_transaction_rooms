@@ -23,6 +23,16 @@ module DocusignTransactionRooms
       assert_equal (1..123).to_a, rooms.map(&:roomId)
     end
 
+    def test_all_does_not_choke_on_empty_body
+      register_rooms_webmocks
+      connection = DocusignTransactionRooms::Client.new('access_token').connection
+      resource = DocusignTransactionRooms::RoomResource.new(connection: connection)
+      rooms = resource.all(dateRangeType: 'LastUpdated', startDate: '2018-07-18').collect{|room| room}
+
+      assert_instance_of Array, rooms
+      assert_empty rooms
+    end
+
     def test_find_fetches_and_parsers_a_room
       register_rooms_webmocks
       connection = DocusignTransactionRooms::Client.new('access_token').connection
