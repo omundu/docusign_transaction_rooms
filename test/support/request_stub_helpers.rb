@@ -15,6 +15,10 @@ module RequestStubHelpers
     stub_request(:get, "#{DocusignTransactionRooms.configuration.api_url}/#{DocusignTransactionRooms.configuration.path_url}/rooms").
       with(query: {count: 50, startPosition: 100}).
       to_return(status: 200, body: Pathname.new('./test/fixtures/rooms/all_3.json').read)
+
+    stub_request(:get, "#{DocusignTransactionRooms.configuration.api_url}/#{DocusignTransactionRooms.configuration.path_url}/rooms").
+      with(query: {dateRangeType: 'LastUpdated', startDate: '2018-07-18', startPosition: 0, count: 100}).
+      to_return(status: 204, body: '')
   end
 
 

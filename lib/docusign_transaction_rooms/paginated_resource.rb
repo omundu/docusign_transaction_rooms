@@ -67,7 +67,7 @@ module DocusignTransactionRooms
       
       @collection += invoker.handle_response
 
-      meta = MetaInformation.extract_single(invoker.response.body, :read)
+      meta = MetaInformation.extract_single(invoker.response.body, :read) || MetaInformation.new
       @result_size = meta.resultSetSize.to_i
       @next_uri = meta.nextUri
       @previous_uri = meta.previousUri
