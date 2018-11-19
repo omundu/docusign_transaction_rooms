@@ -1,3 +1,7 @@
+## 0.2.2
+
+* Relax version dependency for Faraday
+
 ## 0.1.2
 
 * Adding `officeId` to the room detail mapping for minimalist_create. This will allow for the use of this mapping to create manager-owned Docusign Transaction Rooms.
