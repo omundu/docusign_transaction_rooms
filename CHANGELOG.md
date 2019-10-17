@@ -1,3 +1,7 @@
+## 0.2.4
+
+* Update urls to point to the new Docusign Transaction Rooms demo urls.
+
 ## 0.2.3
 
 * Bumping Faraday version to the 0.15.x range

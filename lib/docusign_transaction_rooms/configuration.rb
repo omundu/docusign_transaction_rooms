@@ -5,7 +5,7 @@ module DocusignTransactionRooms
     attr_accessor :path_url
 
     def initialize
-      @api_url  = 'https://stage.cartavi.com'
+      @api_url  = 'https://demo.rooms.docusign.com'
       @path_url = 'restapi/v1'
     end
   end

@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["magotswi@gmail.com"]
 
   spec.summary       = %q{Ruby wrapper around the DocuSign Transaction Rooms API.}
-  spec.description   = %q{A (hopefully) simple ruby wrapper for the DocuSign (formerly Cartavi) API (https://stage.cartavi.com/restapi/swagger/ui/index).}
+  spec.description   = %q{A (hopefully) simple ruby wrapper for the DocuSign Transaction Rooms API (https://demo.rooms.docusign.com/restapi/swagger/).}
   spec.homepage      = "https://github.com/omundu/docusign_transaction_rooms"
   spec.license       = "MIT"
 
