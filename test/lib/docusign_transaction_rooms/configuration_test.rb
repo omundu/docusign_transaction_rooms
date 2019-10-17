@@ -6,7 +6,7 @@ module DocusignTransactionRooms
     class ModifiedSettings < Minitest::Test
 
       def test_the_api_url_can_be_set
-        assert_equal "https://stage.cartavi.com", DocusignTransactionRooms.configuration.api_url
+        assert_equal "https://demo.rooms.docusign.com", DocusignTransactionRooms.configuration.api_url
 
         DocusignTransactionRooms.configure { |config| config.api_url = "https://api.mylittlepony.com"}
 
