@@ -1,6 +1,5 @@
-require "docusign_transaction_rooms/version"
+require 'docusign_transaction_rooms/version'
 require 'docusign_transaction_rooms/configuration'
-require 'active_support/all'
 require 'resource_kit'
 require 'kartograph'
 

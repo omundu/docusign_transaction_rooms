@@ -13,8 +13,10 @@ module DocusignTransactionRooms
 
     def test_rooms_can_be_accessed_to_all_rooms
       register_rooms_webmocks
+
       connection = DocusignTransactionRooms::Client.new('access_token').connection
       resource = DocusignTransactionRooms::RoomResource.new(connection: connection)
+      
       rooms = resource.all(count: 50).collect{|room| room}
 
       assert_instance_of Array, rooms

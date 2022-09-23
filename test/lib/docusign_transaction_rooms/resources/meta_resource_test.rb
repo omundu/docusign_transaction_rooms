@@ -14,7 +14,7 @@ module DocusignTransactionRooms
       activity_types = @resource.activity_types
 
       assert_instance_of Array, activity_types
-      assert_instance_of DocusignTransactionRooms::Meta, activity_types.first
+      activity_types.each{ |activity_type| assert_instance_of DocusignTransactionRooms::Meta, activity_type }
 
       assert_equal 'envreg', activity_types.first.id
       assert_equal 'Envelope Registered', activity_types.first.name
@@ -26,7 +26,7 @@ module DocusignTransactionRooms
       allintegrations = @resource.allintegrations
 
       assert_instance_of Array, allintegrations
-      assert_instance_of DocusignTransactionRooms::Meta, allintegrations.first
+      allintegrations.each{ |allintegration| assert_instance_of DocusignTransactionRooms::Meta, allintegration }
 
       assert_equal '', allintegrations.first.id
       assert_equal '', allintegrations.first.name
@@ -37,7 +37,7 @@ module DocusignTransactionRooms
       closing_statuses = @resource.closing_statuses
 
       assert_instance_of Array, closing_statuses
-      assert_instance_of DocusignTransactionRooms::Meta, closing_statuses.first
+      closing_statuses.each{ |closing_status| assert_instance_of DocusignTransactionRooms::Meta, closing_status }
 
       assert_equal 'sold', closing_statuses.first.id
       assert_equal 'Property Sold', closing_statuses.first.name
@@ -48,7 +48,7 @@ module DocusignTransactionRooms
       countries = @resource.countries
 
       assert_instance_of Array, countries
-      assert_instance_of DocusignTransactionRooms::Meta, countries.first
+      countries.each{ |country| assert_instance_of DocusignTransactionRooms::Meta, country }
 
       assert_equal 'US', countries.first.id
       assert_equal 'United States', countries.first.name
@@ -59,7 +59,7 @@ module DocusignTransactionRooms
       currencies = @resource.currencies
 
       assert_instance_of Array, currencies
-      assert_instance_of DocusignTransactionRooms::Meta, currencies.first
+      currencies.each{ |currency| assert_instance_of DocusignTransactionRooms::Meta, currency }
 
       assert_equal 'USD', currencies.first.id
       assert_equal 'United States Dollar', currencies.first.name
@@ -71,7 +71,7 @@ module DocusignTransactionRooms
       envelope_actions = @resource.envelope_actions
 
       assert_instance_of Array, envelope_actions
-      assert_instance_of DocusignTransactionRooms::Meta, envelope_actions.first
+      envelope_actions.each{ |envelope_action| assert_instance_of DocusignTransactionRooms::Meta, envelope_action }
 
       assert_equal '', envelope_actions.first.id
       assert_equal '', envelope_actions.first.name
@@ -82,7 +82,7 @@ module DocusignTransactionRooms
       financing_types = @resource.financing_types
 
       assert_instance_of Array, financing_types
-      assert_instance_of DocusignTransactionRooms::Meta, financing_types.first
+      financing_types.each{ |financing_type| assert_instance_of DocusignTransactionRooms::Meta, financing_type }
 
       assert_equal 'cash', financing_types.first.id
       assert_equal 'Cash', financing_types.first.name
@@ -93,7 +93,7 @@ module DocusignTransactionRooms
       origin_of_lead_types = @resource.origin_of_lead_types
 
       assert_instance_of Array, origin_of_lead_types
-      assert_instance_of DocusignTransactionRooms::Meta, origin_of_lead_types.first
+      origin_of_lead_types.each{ |origin_of_lead_type| assert_instance_of DocusignTransactionRooms::Meta, origin_of_lead_type }
 
       assert_equal 'real', origin_of_lead_types.first.id
       assert_equal 'Realtor.com', origin_of_lead_types.first.name
@@ -104,7 +104,7 @@ module DocusignTransactionRooms
       property_types = @resource.property_types
 
       assert_instance_of Array, property_types
-      assert_instance_of DocusignTransactionRooms::Meta, property_types.first
+      property_types.each{ |property_type| assert_instance_of DocusignTransactionRooms::Meta, property_type }
 
       assert_equal 'resd', property_types.first.id
       assert_equal 'Residential Detached', property_types.first.name
@@ -115,7 +115,7 @@ module DocusignTransactionRooms
       roles = @resource.roles
 
       assert_instance_of Array, roles
-      assert_instance_of DocusignTransactionRooms::Meta, roles.first
+      roles.each{ |role| assert_instance_of DocusignTransactionRooms::Meta, role }
 
       assert_equal 'buyer', roles.first.id
       assert_equal 'Buyer', roles.first.name
@@ -126,7 +126,7 @@ module DocusignTransactionRooms
       seller_decision_types = @resource.seller_decision_types
 
       assert_instance_of Array, seller_decision_types
-      assert_instance_of DocusignTransactionRooms::Meta, seller_decision_types.first
+      seller_decision_types.each{ |seller_decision_type| assert_instance_of DocusignTransactionRooms::Meta, seller_decision_type }
 
       assert_equal 'pend', seller_decision_types.first.id
       assert_equal 'Pending', seller_decision_types.first.name
@@ -137,7 +137,7 @@ module DocusignTransactionRooms
       special_circumstances_types = @resource.special_circumstances_types
 
       assert_instance_of Array, special_circumstances_types
-      assert_instance_of DocusignTransactionRooms::Meta, special_circumstances_types.first
+      special_circumstances_types.each{ |special_circumstances_type| assert_instance_of DocusignTransactionRooms::Meta, special_circumstances_type }
 
       assert_equal 'ss', special_circumstances_types.first.id
       assert_equal 'Short Sale', special_circumstances_types.first.name
@@ -149,7 +149,7 @@ module DocusignTransactionRooms
       states = @resource.states
 
       assert_instance_of Array, states
-      assert_instance_of DocusignTransactionRooms::Meta, states.first
+      states.each{ |state| assert_instance_of DocusignTransactionRooms::Meta, state }
 
       assert_equal 'buyer', states.first.id
       assert_equal 'Buyer', states.first.name
@@ -160,7 +160,7 @@ module DocusignTransactionRooms
       task_date_types = @resource.task_date_types
 
       assert_instance_of Array, task_date_types
-      assert_instance_of DocusignTransactionRooms::Meta, task_date_types.first
+      task_date_types.each{ |task_date_type| assert_instance_of DocusignTransactionRooms::Meta, task_date_type }
 
       assert_equal 'sd', task_date_types.first.id
       assert_equal 'Specific Calendar Date', task_date_types.first.name
@@ -171,7 +171,7 @@ module DocusignTransactionRooms
       timezones = @resource.timezones
 
       assert_instance_of Array, timezones
-      assert_instance_of DocusignTransactionRooms::Meta, timezones.first
+      timezones.each{ |timezone| assert_instance_of DocusignTransactionRooms::Meta, timezone }
 
       assert_equal 'atlantic', timezones.first.id
       assert_equal 'Atlantic', timezones.first.name
@@ -182,7 +182,7 @@ module DocusignTransactionRooms
       transaction_sides = @resource.transaction_sides
 
       assert_instance_of Array, transaction_sides
-      assert_instance_of DocusignTransactionRooms::Meta, transaction_sides.first
+      transaction_sides.each{ |transaction_side| assert_instance_of DocusignTransactionRooms::Meta, transaction_side }
 
       assert_equal 'sell', transaction_sides.first.id
       assert_equal 'List Side', transaction_sides.first.name
