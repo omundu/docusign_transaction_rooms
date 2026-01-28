@@ -68,7 +68,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundler (>= 2.1.2)
+  bundler
   docusign_transaction_rooms!
   minitest (~> 5.0)
   pry
