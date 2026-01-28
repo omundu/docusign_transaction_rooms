@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    docusign_transaction_rooms (1.2.5)
+    docusign_transaction_rooms (1.0.0)
       faraday (>= 0.15.0)
       kartograph (~> 0.2.8)
       resource_kit (~> 0.1.7)
