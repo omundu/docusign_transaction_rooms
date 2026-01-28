@@ -28,18 +28,17 @@ module DocusignTransactionRooms
       @collection[index]
     end
 
-    def each(start = 0)
+    def each(start = 0, &block)
       fetch_next_page if result_size.nil?
 
-      return to_enum(:each, start) unless block_given?
-      Array(@collection[start..-1]).each do |element|
-        yield(element)
-      end
+      return to_enum(:each, start) unless block
+
+      Array(@collection[start..-1]).each(&block)
       
       unless last?
         start = [@collection.size, start].max
         fetch_next_page
-        each(start, &Proc.new)
+        each(start, &block)
       end
 
       self
